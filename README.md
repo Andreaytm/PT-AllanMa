@@ -13,6 +13,7 @@ This is a responsive website for a client promoting his personal training busine
 ###Features left to implement
 -User Based Features
 	-Contact Me Form
+	
 -General Site Navigation
 	-Home
 	-About Me
