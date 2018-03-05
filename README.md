@@ -7,7 +7,8 @@ This is a responsive website for a client promoting his personal training busine
 
 ## Features
 
-###Features left to implement
+### Features left to implement
+
 -User Based Features
 	-Contact Me Form
 
@@ -19,21 +20,20 @@ This is a responsive website for a client promoting his personal training busine
 	-FAQ
 	-Contact Me
 	
-###Features TBC
--General Site Navigation
+### Features TBC
+	-General Site Navigation
 	-Gallery (rotational Carousel)
 	-Interactive Map
 
 ## Tech Used
--[AngularJS](https://angularjs.org/) managing page routing, make calls to REST API and build custom directives
--[Bootstrap](https://getbootstrap.com/) provides responsive simplistic layouts
--[jQuery](https://jQuery.com/) to manage events and effects for enhanced user experience.
--[npm](https://www.npmjs.com/) for management of dependencies on the website 
--[bower](https://bower.io/) for easy installation of libraries and frameworks.
-
+- [AngularJS](https://angularjs.org/) to manage page routing, make calls to REST API and build custom directives
+- [Bootstrap](https://getbootstrap.com/) provides responsive simplistic layouts
+- [jQuery](https://jQuery.com/) to manage events and effects for enhanced user experience.
+- [npm](https://www.npmjs.com/) for management of dependencies on the website 
+- [bower](https://bower.io/) for easy installation of libraries and frameworks.
 
 ### Getting the code up and running 
-1. Firstly you will need to clone this repository by running the ```git clone <https://github.com/Andreaytm/Stream1-Project>``` command
+1. Firstly you will need to clone this repository by running the ```git clone <https://github.com/Andreaytm/S1-project>``` command
 2. After you've that you'll need to make sure that you have **npm** and **bower** installed 
 	1. You can get **npm** by installing Node from [here](https://nodejs.org/en/)
 	2. Once you've done this you'll need to run the following command: 
