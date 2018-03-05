@@ -50,5 +50,3 @@ This is a responsive website for a client promoting his personal training busine
 5. Once **http-server** is installed run ```http-server -c-1```
 6. The project will now run on [localhost](http://127.0.0.1:8080)
 7. Make changes to the code and if you think it belongs in here then just submit a pull request
-
-
