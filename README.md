@@ -21,7 +21,7 @@ This is a responsive website for a client promoting his personal training busine
 	- Contact Me
 	
 ### Features TBC
-	- General Site Navigation
+- User Based Features
 	- Gallery (Rotational Carousel)
 	- Interactive Map
 
