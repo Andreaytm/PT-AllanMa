@@ -9,21 +9,21 @@ This is a responsive website for a client promoting his personal training busine
 
 ### Features left to implement
 
--User Based Features
-	-Contact Me Form
+- User Based Features
+	- Contact Me Form
 
--General Site Navigation
-	-Home
-	-About Me
-	-Your Workout
-	-Nutrition
-	-FAQ
-	-Contact Me
+- General Site Navigation
+	- Home
+	- About Me
+	- Your Workout
+	- Nutrition
+	- FAQ
+	- Contact Me
 	
 ### Features TBC
-	-General Site Navigation
-	-Gallery (rotational Carousel)
-	-Interactive Map
+	- General Site Navigation
+	- Gallery (Rotational Carousel)
+	- Interactive Map
 
 ## Tech Used
 - [AngularJS](https://angularjs.org/) to manage page routing, make calls to REST API and build custom directives
