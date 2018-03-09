@@ -1,0 +1,22 @@
+{
+  "name": "pt_allanma",
+  "description": "website",
+  "main": "",
+  "authors": [
+    "Andreaytm <andrea.ma@hotmail.co.uk>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Andreaytm/S1-Project",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "angular": "^1.6.9",
+    "angular-route": "^1.6.9",
+  }
+}
