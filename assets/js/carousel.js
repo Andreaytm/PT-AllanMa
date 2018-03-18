@@ -22,9 +22,6 @@ $(document).ready(function(){
     $(".item6").click(function(){
         $("#myCarousel").carousel(5);
     });
-    $(".item7").click(function(){
-        $("#myCarousel").carousel(6);
-    });
 
     // Enable Carousel Controls
     $(".left").click(function(){
