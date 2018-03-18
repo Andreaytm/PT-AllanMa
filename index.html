@@ -6,8 +6,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	
+	<!-- Reset CSS -->
+	<link rel="stylesheet" href="reset.css">
 	<!--CSS-->
-	<link rel="stylesheet" href="reset.css"><!-- Reset CSS -->
 	<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -24,29 +26,28 @@
 	<div class="container">
 	<div class="navbar-header">
 		<a class="navbar-brand" href="/">Allan Ma: Personal Trainer</a>
-		<button type="button" class="navbar-toggle collapsed" 
-		data-toggle="collapse" 
-		data-target="#myCollapsingList">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myCollapsingList">
+			<span class="sr-only">Toggle navigation</span>
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		</button>
-		<ul id="myCollapsingList" class="nav navbar-nav collapse navbar-collapse navbar-right">
+	</div>
+		<ul id="myCollapsingList" class="nav navbar-nav collapse navbar-collapse">
 			<li><a href="/">Home</a></li>
 			<li><a href="/aboutme">About Me</a></li>
 			<li><a href="/yourworkout">Your Workout</a></li>
 			<li><a href="/faq">FAQ</a></li>
 			<li><a href="/contactme">Contact Me</a></li>
 		</ul>
-		</div>
 	</div>
-	</nav>
+</nav>
 
 <ng-view>
 
 	</ng-view>
 
-
+<br>
 <!--footer-->
 <footer id="footer" class="col-12"> 
 	<hr>
@@ -81,12 +82,8 @@
 <script src="app.js"></script>
 
 <!--js created scripts-->
-<script type="text/javascript" src="assets/js/carousel.js"></script>
-<script type="text/javascript" src="assets/js/jqueryevent.js"></script>
-
-<!--scripts-->
-<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
-<script type="text/javascript" src="assets/lib/bootstrap/js/bootstrap.js"></script> 
+<script src="assets/js/carousel.js"></script>
+<script src="assets/js/jqueryevent.js"></script>
 
 </body>
 </html>
