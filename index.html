@@ -1,14 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
+<html ng-app="PTSite"> 
+<head lang="en">
 	<base href="/">
+	<title> Allan Ma: Personal Trainer</title>
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<!--CSS-->
+	<link rel="stylesheet" href="reset.css"><!-- Reset CSS -->
 	<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	
+	<!--bower component scripts-->
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+	<script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>	
 </head>
 
 <body>
@@ -24,144 +31,62 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		</button>
-	</div>
 		<ul id="myCollapsingList" class="nav navbar-nav collapse navbar-collapse navbar-right">
-			<li><a href="/AboutMe">About Me</a></li>
-			<li><a href="/YourWorkout">Your Workout</a></li>
-			<li><a href="/Nutrition">Nutrition</a></li>
-			<li><a href="/FAQ">FAQ</a></li>
-			<li><a href="/ContactMe">Contact Me</a></li>
+			<li><a href="/">Home</a></li>
+			<li><a href="/aboutme">About Me</a></li>
+			<li><a href="/yourworkout">Your Workout</a></li>
+			<li><a href="/faq">FAQ</a></li>
+			<li><a href="/contactme">Contact Me</a></li>
 		</ul>
+		</div>
 	</div>
 	</nav>
 
-	<h1>Allan Ma: Personal Trainer</h1>
-		<div class="container">
-			
-		<section class ="col-sm-6"> <!--center this-->
-			<h2>Be Healthy, Be Fit, Be Strong</h2>
-			<p>I aim to provide tailored fitness, exercise and workout programmes for you</p>
-			<p>whether it is to lose those pounds, to be and feel fitter, healthier and stronger, you will see and feel the results.</p>
-		</section>
+<ng-view>
 
-<!--carousel-->
-	<section class="col-sm-12">
-		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" class="col-sm-12">
+	</ng-view>
 
-  <!-- Indicators -->
-  <ol class="carousel-indicators"> 
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-	<li data-target="#carousel-example-generic" data-slide-to="4"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="7"></li>
-  </ol>
-
-  <!-- Wrapper for slides --> 
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="assets/img/pexels/hydrate.jpeg" alt="">
-      <div class="carousel-caption">
-              <h2> Caption</h2>
-        <p> Description here</p>
-      </div>
-    </div>
-    <figure class="item">
-      <img src="assets/img/pexels/kettlebells.jpeg" alt="">
-      <div class="carousel-caption">
-        <h2> Capt</h2>
-        <p> Description</p>
-      </div>
-    </figure>
-        <figure class="item">
-      <img src="assets/img/pexels/marathon.jpg" alt="">
-      <div class="carousel-caption">  
-        <h2> Caption</h2>
-        <p> Description</p>
-      </div>
-  	</figure>
-
-           <figure class="item">
-      <img src="assets/img/pexels/pushup.jpeg" alt="">
-      <div class="carousel-caption">  
-        <h2> Caption</h2>
-        <p> Description</p>
-      </div>
-  </figure>
-
-           <figure class="item">
-      <img src="assets/img/pexels/weights2.jpeg" alt="">
-      <div class="carousel-caption">  
-        <h2> Caption</h2>
-        <p> Description</p>
-      </div>
-  </figure>
-
-           <figure class="item">
-      <img src="assets/img/pexels/situps.jpeg" alt="">
-      <div class="carousel-caption">  
-        <h2> Caption</h2>
-        <p> Description</p>
-      </div>
-  </figure>
-
-    <figure class="item">
-      <img src="assets/img/pexels/stretch.jpeg" alt="">
-      <div class="carousel-caption">  
-        <h2> Caption</h2>
-        <p> Description</p>
-      </div>
-  	</figure>
-          <figure class="item">
-      <img src="assets/img/pexels/weights1.jpeg" alt="">
-      <div class="carousel-caption">  
-        <h2> Caption</h2>
-        <p> Description</p>
-      </div>
-    </figure>
-
-  </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-</section>
 
 <!--footer-->
-<footer class="col-sm-12"> 
+<footer id="footer" class="col-12"> 
 	<hr>
-	<a href="https://www.facebook.com" target="_blank"><img src="assets/img/x2/facebook.png"></a>
-	<a href="https://www.twitter.com" target="_blank"><img src="assets/img/x2/twitter.png"></a>
-	<a href="https://www.instagram.com" target="_blank"><img src="assets/img/x2/instagram.png"></a>
-	<a href="https://www.youtube.com" target="_blank"><img src="assets/img/x2/youtube.png"></a>
-	<a href="https://www.axialis.com/free/icons">© Icons by <a href="https://www.axialis.com">Axialis</a>
-</footer>
-</div>
+	
+	<div id="links">
+	<a href="https://www.facebook.com" target="_blank"><img src="assets/img/x1/facebook.png"></a>
+	<a href="https://www.twitter.com" target="_blank"><img src="assets/img/x1/twitter.png"></a>
+	<a href="https://www.instagram.com" target="_blank"><img src="assets/img/x1/instagram.png"></a>
+	<a href="https://www.youtube.com" target="_blank"><img src="assets/img/x1/youtube.png"></a></div>
+	<br>
+	<div id="copysite"><p>Copyright © 2018 Allan Ma Personal Trainer | Designed by Andrea Ma </p></div>
 
+	<div id="icons">
+	<a href="https://www.axialis.com/free/icons"  target="_blank">© Icons</a> by <a href="https://www.axialis.com"  target="_blank"> Axialis</a>
+	</div>
+	<br>
+  <div class="container" id="images"> 
+  <p>
+  	Copyright Images from  <a href="https://www.pexels.com" target="_blank">Pexels</a> by various photographers: 
+    <a href="https://www.pexels.com/@victorfreitas" target="_blank">Victor Freitas, </a>
+    <a href="https://www.pexels.com/@olly" target="_blank"> Bruce Mars, </a>
+    <a href="https://www.pexels.com/@keiji-yoshiki-31563" target="_blank">Keiji Yoshiki, </a>
+    <a href="https://www.pexels.com/@mastercowley" target="_blank"> Nathan Cowley,</a>
+    <a href="https://www.pexels.com/@pixabay" target="_blank">Pixabay.com</a></p>
+  </div>
+</footer>
+
+
+
+<!--angularJS created scripts-->
+<script src="controller.js"></script>
+<script src="app.js"></script>
 
 <!--js created scripts-->
 <script type="text/javascript" src="assets/js/carousel.js"></script>
+<script type="text/javascript" src="assets/js/jqueryevent.js"></script>
 
 <!--scripts-->
-<script src="http://code.jquery.com/jquery.js"></script>
-<script src="assets/lib/bootstrap/js/bootstrap.js"></script> 
-<!--bower component scripts-->
-	<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
-	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-	<script type="text/javascript" src="bower_components/angular/angular.js"></script>
-	<script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
-
-
+<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
+<script type="text/javascript" src="assets/lib/bootstrap/js/bootstrap.js"></script> 
 
 </body>
 </html>
