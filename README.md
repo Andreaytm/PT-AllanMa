@@ -3,7 +3,7 @@
 ## Overview
 
 ### About Personal Training -Allan Ma
-This is a responsive website for a client promoting his personal training business, with information on what he offers, visuals to excite potential customers, general information on personal training and a contact me form and visual google map with contact information.
+This is a responsive website for a client promoting his personal training business, with information on what he offers, visuals to excite potential customers, general information on personal training and a contact me form and visual google map allowing the user to get in touch.
 
 ## Features
 
@@ -11,18 +11,17 @@ This is a responsive website for a client promoting his personal training busine
 
 - User Based Features
 	- Contact Me Form
+	- Gallery (Rotational Carousel)
 
 - General Site Navigation
 	- Home
 	- About Me
 	- Your Workout
-	- Nutrition
 	- FAQ
 	- Contact Me
 	
 ### Features TBC
 - User Based Features
-	- Gallery (Rotational Carousel)
 	- Interactive Map
 
 ## Tech Used
