@@ -6,11 +6,12 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	
 	<!-- Reset CSS -->
 	<link rel="stylesheet" href="reset.css">
 	<!--CSS-->
 	<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
 	<link rel="stylesheet" type="text/css" href="assets/lib/bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<!--bower component scripts-->
@@ -18,6 +19,7 @@
 	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 	<script type="text/javascript" src="bower_components/angular/angular.js"></script>
 	<script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>	
+
 </head>
 
 <body>
@@ -51,7 +53,7 @@
 <div class="container">
 <div class="row">
 <!--footer-->
-<footer id="footer" class="col-12"> 
+<footer id="footer" ng-app="hidefooter" class="col-12"> 
 	<hr>
 	
 	<div id="links">
@@ -61,35 +63,19 @@
 	<a href="https://www.youtube.com" target="_blank"><img src="assets/img/x1/youtube.png"></a></div>
 	<br>
 	<div id="copysite"><p>Copyright © 2018 Allan Ma Personal Trainer | Designed by Andrea Ma </p></div>
-
-	<div id="icons">
-	<a href="https://www.axialis.com/free/icons"  target="_blank">© Icons</a> by <a href="https://www.axialis.com"  target="_blank"> Axialis</a>
+	<p><a href="https://www.axialis.com/free/icons"  target="_blank">© Icons</a> by <a href="https://www.axialis.com"  target="_blank"> Axialis</a></p>
 	</div>
 	<br>
-  <div id="images"> 
-  <p>
-  	Copyright Images from  <a href="https://www.pexels.com" target="_blank">Pexels</a> by various photographers: 
-    <a href="https://www.pexels.com/@victorfreitas" target="_blank">Victor Freitas, </a>
-    <a href="https://www.pexels.com/@olly" target="_blank"> Bruce Mars, </a>
-    <a href="https://www.pexels.com/@keiji-yoshiki-31563" target="_blank">Keiji Yoshiki, </a>
-    <a href="https://www.pexels.com/@mastercowley" target="_blank"> Nathan Cowley,</a>
-    <a href="https://www.pexels.com/@pixabay" target="_blank">Pixabay.com</a></p>
-  </div>
 </footer>
 </div>
 </div>
-
 
 <!--angularJS created scripts-->
 <script src="controller.js"></script>
 <script src="app.js"></script>
 
-
 <!--js created scripts-->
 <script src="assets/js/carousel.js"></script>
-<!--tbc<script src="assets/js/jqueryevent.js"></script>
-<script src="assets/js/submitform.js"></script>-->
-
 
 </body>
 </html>
