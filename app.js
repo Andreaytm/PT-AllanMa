@@ -23,10 +23,5 @@ angular.module("PTSite").config(function($locationProvider, $routeProvider) {
 	.when("/contactme", {
 		templateUrl: "templates/contactme.html",
 		controller: "ContactController"
-	})
-	.when("/contactme/form", {
-		templateUrl: "templates/contactmeform.html",
-		controller: "SubmitController"
 	});
 });
-
