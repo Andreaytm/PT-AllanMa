@@ -2,28 +2,22 @@
 	<h1>{{title}}</h1>
 </div>
 <div class="container">
+	<div class ="col-12">
 	<p> If you're interested in getting fit and healthy with me. Please get in touch using any of the following details below or if you prefer the face-to-face approach you can find me at PureGym on most days.</p>
-	<br>
-
-	<div class ="col-3">
-	<!-- enter contact info here-->
-	<img id="contact" src="assets/img/contact.jpg" alt="me">
-
-	<p>Email:allanma@example.com</p>
-	<br>
-	<p>Mobile:07771234567</p>
-	</div>
-  <div class ="col-9">
-  
-  <div id="googleMap">
-  <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJqXiu3PPGh0gRNfsDY7DeV7o&key=
-  AIzaSyD4j8fRjUSRXiDJsDE5oxHlbKNEzWo1XKw&" allowfullscreen></iframe>
-</div>
+	<br></div></div>
 	<div class="container">
+	<div class="col-6"><!-- enter contact info here-->
+	<img id="contact" src="assets/img/contact.jpg" alt="me">
+	<p class="contacts">Email: allanma@example.com</p>
+	<br>
+	<p class="contacts">Mobile: 07771234567</p>
+	<br>
+	<p class="contacts">Address: 600 Gorgie Road, Edinburgh, EH11 3XP</p>
+	<br>
 	<p> You can also contact me on Facebook, Twitter, Instagram and via the contact form on this page</p>
-
+	<br>
 	<button type="button" class="btn btn-primary btn-large" data-toggle="modal" data-target="#contact-modal">Contact Me Form</a></button>
-</div>
+</div></div></div>
 
 <div class="container">
 	<div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="contact-form-modal" aria-hidden="true">
@@ -34,7 +28,7 @@
 					<h4 class="modal-title" id="contact-form-header">Contact Form</h4> 
 				</div>
 				<div class="modal-body">
-	<form action="https://www.example.com" method="post" name="contactForm" id="contactForm" data-ng-submit="submitForm()" novalidate>
+	<form method="post" action="http://www.example.com" name="contactForm" id="contactForm" data-ng-submit="submitForm()" novalidate>
 	<div class="form-group">
 		<label><i class="fa fa-user"></i>  *Name:</label>
 			<input type="text" name="name" class="form-control" data-ng-model="contact.name" title="Please enter full name" placeholder="John Doe" required>
@@ -87,3 +81,13 @@
 			</div>
 		</div>
 	</div>
+
+<div class="container">
+  <div class ="col-4">
+  
+  <div id="googleMap">
+  <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJqXiu3PPGh0gRNfsDY7DeV7o&key=
+  AIzaSyD4j8fRjUSRXiDJsDE5oxHlbKNEzWo1XKw&" allowfullscreen></iframe>
+</div>
+</div>
+</div>
