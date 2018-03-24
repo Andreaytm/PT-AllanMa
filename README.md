@@ -19,9 +19,35 @@ This is a responsive website for a client promoting his personal training busine
 	- Gallery (Rotational Carousel)
 	- Interactive Map
 
-## Tech Used
-- [AngularJS](https://angularjs.org/) to manage page routing, make calls to REST API and build custom directives
-- [Bootstrap](https://getbootstrap.com/) provides responsive simplistic layouts
+## Development
+- Planning 
+	- I had an initial conversation with the client, who detailed aspects he required of the site, a contact form for potential customers to get in touch, some information about him as a personal trainer a general page for what personal training involves a FAQ and some images around exercise. 
+	- I used [Pencil](https://pencil.evolus.vn/) to create **wireframes** for the project instead of [Balsamiq](https://balsamiq.com/) due to the trial expiring, and shown these to the client. I talked through the pages, and noted changes required to reflect my clients needs. Some initial aspects that have changed over time include: 
+		- the removal of a page on nutrition as the client deemed that although important, he is not a nutritionist there is not much to say on this aspect
+		- selection of styling color-scheme and images to be displayed 
+		- layout of content within the page 
+		- inclusion of an interactive GoogleMap page
+		- inclusion of tabs at bottom of HomePage so to have alternative navigation
+		- inclusion of return to top button at bottom of pages
+-Testing
+	- Iterative testing has been included throughout the process of the project through observation of complex changes on [localhost](http://127.0.0.1:8080) this was shared iteratively with the client especially once new functionality was built throughout the project.
+	- Checking syntax for errors against existing [Code Institute](https://www.codeinstitute.net/) learnt code
+	- Validation of syntax through [CSS](http://jigsaw.w3.org/css-validator/) and [HTML](https://validator.w3.org/) Validators and of JavaScript code on [JSHint](jshint.com)
+	- Used ```CTRL+SHIFT+P``` to reindent tabs to ensure code is structured cleanly.
+	- Checked console for errors for JavaScript codes.
+
+- Implementation
+	- For mobile responsiveness and font and image-sizing I referred to best practice discussed on StackOverflow and ensured font-size was 16px = 1em. Initially I had thought of keeping this font for all devices however have decided to alter font sizes for each device upon reflection and through conversation with the client. I have also including a line height of 200% for easy legibility of paragraphs on mobile devices.
+	- Minor stylistic aspects have been included in the design such as [font-awesome](https://fontawesome.bootstrapcheatsheets.com/) glyphicons instead of standard Bootstrap glyphicons, and social media icons have been provided by [Axialis](https://www.axialis.com/free/icons). 
+	- Images were taken from free stockphoto website [Pexels](https://www.pexels.com) and from personal photos taken by the client.
+	- Other changes included not including services and directives in the use of AngularJS and not including a0-angular-storage bower-components. These decisions were made as they were not required for the implementation of the website as it does not require REST API, access to data in local storage, or need for API calls.
+
+- Finalisation 
+	- The project is deployed on GitHub and is accessible through [andreaytm.github.io/s1project/(https://andreaytm.github.io/s1project/). 
+
+## Technologies Used
+- [AngularJS](https://angularjs.org/) to manage page routing.
+- [Bootstrap](https://getbootstrap.com/) provides responsive simplistic layouts.
 - [jQuery](https://jQuery.com/) to manage events and effects for enhanced user experience.
 - [npm](https://www.npmjs.com/) for management of dependencies on the website 
 - [bower](https://bower.io/) for easy installation of libraries and frameworks.
