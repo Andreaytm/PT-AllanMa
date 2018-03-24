@@ -16,7 +16,7 @@ $(document).ready(function(){
         $("#myCarousel").carousel(3);
     });
 
-      $(".item5").click(function(){
+    $(".item5").click(function(){
         $("#myCarousel").carousel(4);
     });
     $(".item6").click(function(){
