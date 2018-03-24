@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="PTSite"> 
+<html data-ng-app="PTSite"> 
 <head lang="en">
 	<base href="/">
 	<title> Allan Ma: Personal Trainer</title>
@@ -14,70 +14,71 @@
 
 	<link rel="stylesheet" type="text/css" href="assets/lib/bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/devicesize.css">
 	<!--bower component scripts-->
 	<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
 	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 	<script type="text/javascript" src="bower_components/angular/angular.js"></script>
 	<script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>	
-<!--other scripts-->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4j8fRjUSRXiDJsDE5oxHlbKNEzWo1XKw&callback=myMap"></script>
+	<!--other scripts-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4j8fRjUSRXiDJsDE5oxHlbKNEzWo1XKw&callback=myMap"></script>
 </head>
 
 <body>
 	<!--navigation menu-->
-<nav class="navbar navbar-inverse navbar-fixed-top">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="/">Allan Ma: Personal Trainer</a>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myCollapsingList">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<ul id="myCollapsingList" class="nav navbar-nav collapse navbar-collapse">
+				<li><a href="/">Home</a></li>
+				<li><a href="/aboutme">About Me</a></li>
+				<li><a href="/yourworkout">Your Workout</a></li>
+				<li><a href="/faq">FAQ</a></li>
+				<li><a href="/contactme">Contact Me</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<data-ng-view>
+
+	</data-ng-view>
+
+	<br>
 	<div class="container">
-	<div class="navbar-header">
-		<a class="navbar-brand" href="/">Allan Ma: Personal Trainer</a>
-		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myCollapsingList">
-			<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		</button>
-	</div>
-		<ul id="myCollapsingList" class="nav navbar-nav collapse navbar-collapse">
-			<li><a href="/">Home</a></li>
-			<li><a href="/aboutme">About Me</a></li>
-			<li><a href="/yourworkout">Your Workout</a></li>
-			<li><a href="/faq">FAQ</a></li>
-			<li><a href="/contactme">Contact Me</a></li>
-		</ul>
-	</div>
-</nav>
+		<div class="row">
+			<!--footer-->
+			<footer id="footer" data-ng-app="hidefooter" class="col-12"> 
+				<hr>
+				<div id="links">
+					<div class="col-12">
+						<a href="https://www.facebook.com" target="_blank"><img src="assets/img/x1/facebook.png" alt="facebook icon"></a>
+						<a href="https://www.twitter.com" target="_blank"><img src="assets/img/x1/twitter.png" alt="twitter icon"></a>
+						<a href="https://www.instagram.com" target="_blank"><img src="assets/img/x1/instagram.png" alt="instagram icon"></a>
+						<a href="https://www.youtube.com" target="_blank"><img src="assets/img/x1/youtube.png" alt="youtube icon"></a></div></div>
+						<br>
+							<div class="hidden-xs col-sm-12 col-md-12 col-lg-12"><p class="copyright">Copyright © 2018 Allan Ma Personal Trainer | Designed by Andrea Ma </p></div>
+							<div class="col-xs-12 hidden-sm hidden-md hidden-lg"><p class="copyright">Copyright © 2018 Allan Ma Personal Trainer </p><p class="copyright"> Designed by Andrea Ma </p></div>
+						<p><a class="link" href="https://www.axialis.com/free/icons"  target="_blank">© Icons</a> by <a class="link" href="https://www.axialis.com"  target="_blank"> Axialis</a></p>
+						<br>
+					</footer>
+				</div>
+			</div>
 
-<ng-view>
+			<!--angularJS created scripts-->
+			<script src="controller.js"></script>
+			<script src="app.js"></script>
 
-	</ng-view>
-
-<br>
-<div class="container">
-<div class="row">
-<!--footer-->
-<footer id="footer" ng-app="hidefooter" class="col-12"> 
-	<hr>
-	
-	<div id="links">
-	<a href="https://www.facebook.com" target="_blank"><img src="assets/img/x1/facebook.png"></a>
-	<a href="https://www.twitter.com" target="_blank"><img src="assets/img/x1/twitter.png"></a>
-	<a href="https://www.instagram.com" target="_blank"><img src="assets/img/x1/instagram.png"></a>
-	<a href="https://www.youtube.com" target="_blank"><img src="assets/img/x1/youtube.png"></a></div>
-	<br>
-	<div id="copysite"><p>Copyright © 2018 Allan Ma Personal Trainer | Designed by Andrea Ma </p></div>
-	<p><a class="link" href="https://www.axialis.com/free/icons"  target="_blank">© Icons</a> by <a class="link" href="https://www.axialis.com"  target="_blank"> Axialis</a></p>
-	</div>
-	<br>
-</footer>
-</div>
-</div>
-
-<!--angularJS created scripts-->
-<script src="controller.js"></script>
-<script src="app.js"></script>
-
-<!--js created scripts-->
-<script src="assets/js/carousel.js"></script>
+			<!--js created scripts-->
+			<script src="assets/js/carousel.js"></script>
 
 
-</body>
-</html>
+		</body>
+		</html>
