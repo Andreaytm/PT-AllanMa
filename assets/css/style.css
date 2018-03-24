@@ -1,71 +1,81 @@
-h1{ padding-top: 80px;
-	padding-left: 120px;
-	padding-bottom: 10px;
-	font-size:3em;
-}
-h2{
-	color: navy;
-	font-weight: bold;
-	font-size: 2.25em;
-}
-h3{
-	font-size: 1.75em;
-}
-.navbar{
- background: linear-gradient(-45deg,#191970, rgba(0,0,0,1), #333);
- position: fixed;
- z-index: 100;
+/*whole site*/
+h1 {font-size:2.5em;
+	padding-top: 80px;
+	padding-left: 30px;
+	padding-bottom: 8px
 }
 
-#links{
-	display: flex;
-	justify-content: center;
+h2 {font-size:2em;
+	color: navy;
+	font-weight: bold;
 }
-#images{
-	display: hidden;
-	display: flex;
-	justify-content: center;
-}
-#icons{
-	display: hidden;
-	display: flex;
-	justify-content: center;
-}
-#copysite{
-	display: flex;
-	justify-content: center;
-}
-#copyright{
-	display: flex;
-	justify-content: center;
+
+h3 {font-size:1.50em;
 }
 
 .container {
    min-height: 100%;
    position: relative;
 }
+
 .body {
 	margin: 0;
-   height: 100%;
-   padding: 5%;
-   padding-bottom: 5%;   
-   font-size: 1em;
-  line-height: 1.25em;
-}
-#footer {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	height: 5%;   /* Height of the footer */
+	height: 100%;
+	padding: 5%;
+	padding-bottom: 5%;   
+	font-size: 1em;
+	line-height: 1.25em;
 }
 ul{
 	list-style-type:disc;
 	padding-left: 30px;
 	line-height:1.25em;
 }
+a{
+	text-decoration: none;
+	color: white;
+}
 
+/*index*/
+.navbar{
+ background: linear-gradient(-45deg,#191970, rgba(0,0,0,1), #333);
+ position: fixed;
+ z-index: 100;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 5%;   /* Height of the footer */
+}
+.copyright{
+	display: flex;
+	justify-content: center;
+}
+
+#icons{
+	display: flex;
+	justify-content: center;
+}
+
+
+/* home*/
 #statement{
-	font-size: 120%;
+	font-size: 1.5em;
+}
+#images{
+	display: flex;
+	justify-content: center;
+}
+#links{
+	display: flex;
+	justify-content: center;
+}
+.tabs img{
+	width: 80%;
+	height: 80%;
+	padding: 2%;
 }
 
 /*about me*/
@@ -82,27 +92,28 @@ ul{
 	width: 300px;
 	height: 400px;
 }
-a{
-	text-decoration: none;
-	color: white;
-}
 
 /*workout*/
 #transform1{
 	margin: 0 auto;	
-	width: 40%;
-	height: 40%;
+	width: 100%;
+	height: 100%;
 }
 #transform2{
 	margin: 0 auto;	
-	width: 40%;
-	height: 40%;
+	width: 100%;
+	height: 100%;
 }
 #progress{
+	margin: 0 auto;	
+	width: 100%;
+	height: 100%;
+}
+#carousel2{
 	display: flex;
 	margin: 0 auto;	
-	width: 40%;
-	height: 40%;
+	width: 100%;
+	height: 100%;
 }
 /*faq*/
 .link{
@@ -111,7 +122,7 @@ a{
 }
 /*contact me*/
 #contact{
-	float:left;
+	float: none;
 	padding-right: 20px;
 }
 iframe{
