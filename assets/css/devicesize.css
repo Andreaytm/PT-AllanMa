@@ -1,0 +1,125 @@
+/*lg= large desktop/laptop */
+@media(min-width:1200px){
+h1 {font-size:3em;
+	padding-top: 80px;
+	padding-left: 30px;
+	padding-bottom: 8px}
+
+h2 {font-size:2.25em;
+	color: navy;
+	font-weight: bold;}
+
+h3 {font-size:1.75em;}
+
+}
+/*workout*/
+#transform1{
+	margin: 0 auto;	
+	width: 50%;
+	height: 50%;
+}
+#transform2{
+	margin: 0 auto;	
+	width: 50%;
+	height: 50%;
+}
+#progress{
+	margin: 0 auto;	
+	width: 50%;
+	height: 50%;
+}
+#carousel2{
+	display: flex;
+	margin: 0 auto;	
+	width: 80%;
+	height: 80%;
+}
+/*contact me*/
+#contact{
+	float:left;
+	padding-right: 20px;
+}
+}
+/*md =landscape tablets med desktop*/
+@media(min-width:992px) and (max-width:1199px){
+h1{font-size: 3em;
+	padding-top: 80px;
+	padding-left: 30px;
+	padding-bottom: 8px}
+	
+h2{font-size:2em;
+	color: navy;
+	font-weight: bold;
+}
+h3{font-size:1.50em;}
+/*workout*/
+#transform1{
+	margin: 0 auto;	
+	width: 50%;
+	height: 50%;
+}
+#transform2{
+	margin: 0 auto;	
+	width: 50%;
+	height: 50%;
+}
+#progress{
+	margin: 0 auto;	
+	width: 50%;
+	height: 50%;
+}
+#carousel2{
+	display: flex;
+	margin: 0 auto;	
+	width: 80%;
+	height: 80%;
+}
+/*contact me*/
+#contact{
+	float:left;
+	padding-right: 20px;
+}
+}
+/*sm =tablet & small desktop*/
+@media(min-width:768px) and (max-width:991px){
+h1{font-size: 2.5em; 
+	padding-top: 80px;
+	padding-left: 30px;
+	padding-bottom: 8px}
+
+h2{font-size:2em;
+	color: navy;
+	font-weight: bold;
+}
+h3{font-size:1.50em;}
+/*workout*/
+#transform1{
+	margin: 0 auto;	
+	width: 100%;
+	height: 100%;
+}
+#transform2{
+	margin: 0 auto;	
+	width: 100%;
+	height: 100%;
+}
+#progress{
+	margin: 0 auto;	
+	width: 100%;
+	height: 100%;
+}
+#carousel2{
+	display: flex;
+	margin: 0 auto;	
+	width: 100%;
+	height: 100%;
+}
+/*contact me*/
+#contact{
+	float:left;
+	padding-right: 20px;
+}
+}
+
+/*xs =landscape phone and portrait tablet 
+(max-width:767px default sizing of bootstrap)*/
