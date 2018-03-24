@@ -58,7 +58,22 @@ a{
 	display: flex;
 	justify-content: center;
 }
-
+#toTop{
+	display: none;
+	position: fixed;
+	right: 20px;
+	bottom: 80px;
+	width: 40px;
+	height: 40px;
+	border: none;
+	outline: none;
+	background-color: black;
+	color: white;
+	border-radius: 20px;
+}
+#toTop:hover{
+	background-color: navy;
+}
 
 /* home*/
 #statement{
