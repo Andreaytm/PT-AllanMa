@@ -6,89 +6,87 @@
 		<p> If you're interested in getting fit and healthy with me. Please get in touch using any of the following details below or if you prefer the face-to-face approach you can find me at PureGym on most days.</p>
 		<br></div></div>
 		<div class="container">
-			<div class="col-12">
 				<div class="col-12">
-				<img id="contact" src="assets/img/contact.jpg" alt="me"></div>
-				<p class="contacts">Email:allanma@example.com</p>
+					<img id="contact" src="assets/img/contact.jpg" alt="me"></div>
+					<p class="contacts">Email:allanma@example.com</p>
+					<br>
+					<p class="contacts">Mobile:07771234567</p>
+					<br>
+					<p class="contacts">Address: 600 Gorgie Road, Edinburgh, EH11 3XP</p>
+					<br>
+					<p> You can also contact me on <a href="https://www.facebook.com" class="link" target="_blank">Facebook</a>, <a href="https://www.twitter.com" class="link" target="_blank">Twitter</a>,<a href="https://www.instagram.com" class="link" target="_blank"> Instagram</a> and via the contact form on this page</p>
+					<br>
+					<button type="button" id="contactbtn" class="btn btn-primary btn-large" data-toggle="modal" data-target="#contact-modal">Contact Me Form</button>
+				</div></div>
 				<br>
-				<p class="contacts">Mobile:07771234567</p>
-				<br>
-				<p class="contacts">Address: 600 Gorgie Road, Edinburgh, EH11 3XP</p>
-				<br>
-				<p> You can also contact me on <a href="https://www.facebook.com" class="link" target="_blank">Facebook</a>, <a href="https://www.twitter.com" class="link" target="_blank">Twitter</a>,<a href="https://www.instagram.com" class="link" target="_blank"> Instagram</a> and via the contact form on this page</p>
-				<br>
-				<button type="button" id="contactbtn" class="btn btn-primary btn-large" data-toggle="modal" data-target="#contact-modal">Contact Me Form</button>
-			</div></div></div>
-			<br>
-			<div class="container">
-				<div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="contact-form-modal" aria-hidden="true">
-					<div class="modal-dialog">
-						<div class="modal-content">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-								<h4 class="modal-title" id="contact-form-header">Contact Form</h4> 
-							</div>
-							<div class="modal-body">
-								<form method="post" action="http://www.example.com" name="contactForm" id="contactForm" data-ng-submit="submitForm()" novalidate>
-									<div class="form-group">
-										<label><i class="fa fa-user"></i>  *Name:</label>
-										<input type="text" name="name" class="form-control" data-ng-model="contact.name" title="Please enter full name" placeholder="John Doe" required>
-										<p data-ng-show="contactForm.name.$pristine" class="help-block">A name is required</p>
-									</div>
+				<div class="container">
+					<div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="contact-form-modal" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+									<h4 class="modal-title" id="contact-form-header">Contact Form</h4> 
+								</div>
+								<div class="modal-body">
+									<form method="post" action="http://www.example.com" name="contactForm" id="contactForm" data-ng-submit="submitForm()" novalidate>
+										<div class="form-group">
+											<label><i class="fa fa-user"></i>  *Name:</label>
+											<input type="text" name="name" class="form-control" data-ng-model="contact.name" title="Please enter full name" placeholder="John Doe" required>
+											<p data-ng-show="contactForm.name.$pristine" class="help-block">A name is required</p>
+										</div>
 
-									<div class="form-group">
-										<label><i class="fa fa-envelope-o"></i>  *Email:</label>
-										<input type="email" name="email" class="form-control" data-ng-model="contact.email" title="Please enter email eg abc@gmail.com" placeholder="eg example@email.com" required>
-										<p data-ng-show="contactForm.email.$pristine" class="help-block"> An email is required
-										</p>
-									</div>
+										<div class="form-group">
+											<label><i class="fa fa-envelope-o"></i>  *Email:</label>
+											<input type="email" name="email" class="form-control" data-ng-model="contact.email" title="Please enter email eg abc@gmail.com" placeholder="eg example@email.com" required>
+											<p data-ng-show="contactForm.email.$pristine" class="help-block"> An email is required
+											</p>
+										</div>
 
-									<div class="form-group">
-										<label><i class="fa fa-phone"></i> *Mobile/Telephone:</label>
-										<input type="text" name="number" class="form-control" data-ng-model="contact.mobile" title="Please enter a 11 digit contact number eg 07712345555" placeholder="eg 07123456789" pattern="[0]{1}[0-9]{10}" required>
-										<p data-ng-show="contactForm.number.$pristine" class="help-block">A contact number is required
-										</p>
-									</div>
+										<div class="form-group">
+											<label><i class="fa fa-phone"></i> *Mobile/Telephone:</label>
+											<input type="text" name="number" class="form-control" data-ng-model="contact.mobile" title="Please enter a 11 digit contact number eg 07712345555" placeholder="eg 07123456789" pattern="[0]{1}[0-9]{10}" required>
+											<p data-ng-show="contactForm.number.$pristine" class="help-block">A contact number is required
+											</p>
+										</div>
 
-									<div class="form-group">
-										<label>Age:</label>
-										<input type="number" name="age" placeholder="Age" step="1" min="18" max="99" ng-model="contact.age">
-									</div>
-									<br>
-
-									<div class="form-group">
-										<label>Additional Information:</label>
+										<div class="form-group">
+											<label>Age:</label>
+											<input type="number" name="age" placeholder="Age" step="1" min="18" max="99" ng-model="contact.age">
+										</div>
 										<br>
-										<textarea name="info" type="text" class="form-control" data-ng-model="contact.info" rows="10" cols="20" placeholder="Please enter any additional information which would be useful eg any injuries, medical conditions, pregnancy, areas of concern so that I can provide you with a fully tailored workout programme for you.">
-										</textarea>
-									</div>
-									<br>
 
-									<div class="form-group">
-										<label>Subscription:</label>
-										<p> Check the box for subscriptions to the latest workout advice and offers</p>
-										
-										<input type="checkbox" name="subscribe" value="subscribe here">
+										<div class="form-group">
+											<label>Additional Information:</label>
+											<br>
+											<textarea name="info" type="text" class="form-control" data-ng-model="contact.info" rows="10" cols="20" placeholder="Please enter any additional information which would be useful eg any injuries, medical conditions, pregnancy, areas of concern so that I can provide you with a fully tailored workout programme for you.">
+											</textarea>
+										</div>
 										<br>
-									</div>
 
-									<div class="modal-footer">
-										<button type="cancel" class="btn btn-default" data-dismiss="modal">Cancel</button>
-										<button type="submit" id="submitform" class="btn btn-primary" data-ng-disabled="contactForm.$invalid">Submit</button>
-									</div>
-								</form>
+										<div class="form-group">
+											<label>Subscription:</label>
+											<p> Check the box for subscriptions to the latest workout advice and offers</p>
+
+											<input type="checkbox" name="subscribe" value="subscribe here">
+											<br>
+										</div>
+
+										<div class="modal-footer">
+											<button type="cancel" class="btn btn-default" data-dismiss="modal">Cancel</button>
+											<button type="submit" id="submitform" class="btn btn-primary" data-ng-disabled="contactForm.$invalid">Submit</button>
+										</div>
+									</form>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
 
-			<div class="container">
-				<div class ="col-4">
-					
-					<div id="googleMap">
-						<iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJqXiu3PPGh0gRNfsDY7DeV7o&key=
-						AIzaSyD4j8fRjUSRXiDJsDE5oxHlbKNEzWo1XKw&" allowfullscreen></iframe>
+				<div class="container">
+					<div class ="col-4">
+						<div id="googleMap">
+							<iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJqXiu3PPGh0gRNfsDY7DeV7o&key=
+							AIzaSyD4j8fRjUSRXiDJsDE5oxHlbKNEzWo1XKw&" allowfullscreen></iframe>
+						</div>
 					</div>
 				</div>
-			</div>
