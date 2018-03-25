@@ -2,7 +2,7 @@ angular.module("PTSite", ["ngRoute", "RouteControllers"]);
 
 angular.module("PTSite").config(function($locationProvider, $routeProvider) {
 	$locationProvider.html5Mode(true);
-   
+	
 	$routeProvider
 	.when("/", {
 		templateUrl: "templates/home.html",
