@@ -37,7 +37,7 @@ This is a responsive website for a client promoting his personal training busine
 	- Checked console for errors for JavaScript codes.
 
 - Implementation
-	- For mobile responsiveness and font and image-sizing I referred to best practice discussed on StackOverflow and ensured font-size was 16px = 1em. Initially I had thought of keeping this font for all devices however have decided to alter font sizes for each device upon reflection and through conversation with the client. I have also including a line height of 200% for easy legibility of paragraphs on mobile devices.
+	- For mobile responsiveness and font and image-sizing I referred to best practice discussed on StackOverflow and ensured font-size was 16px = 1em. Initially I had thought of keeping this font for all devices however have decided to alter font sizes for each device upon reflection and through conversation with the client. I have also included a line-height of 1.25em for easy legibility of paragraphs on mobile devices.
 	- Minor stylistic aspects have been included in the design such as [font-awesome](https://fontawesome.bootstrapcheatsheets.com/) glyphicons instead of standard Bootstrap glyphicons, and social media icons have been provided by [Axialis](https://www.axialis.com/free/icons). 
 	- Images were taken from free stockphoto website [Pexels](https://www.pexels.com) and from personal photos taken by the client.
 	- Other changes included not including services and directives in the use of AngularJS and not including a0-angular-storage bower-components. These decisions were made as they were not required for the implementation of the website as it does not require REST API, access to data in local storage, or need for API calls.
