@@ -29,12 +29,13 @@ This is a responsive website for a client promoting his personal training busine
 		- inclusion of an interactive GoogleMap page
 		- inclusion of tabs at bottom of HomePage so to have alternative navigation
 		- inclusion of return to top button at bottom of pages
+		- decision to use a pop-up thankyou message instead of routing to a thankyou page
 -Testing
 	- Iterative testing has been included throughout the process of the project through observation of complex changes on [localhost](http://127.0.0.1:8080) this was shared iteratively with the client especially once new functionality was built throughout the project.
 	- Checking syntax for errors against existing [Code Institute](https://www.codeinstitute.net/) learnt code
 	- Validation of syntax through [CSS](http://jigsaw.w3.org/css-validator/) and [HTML](https://validator.w3.org/) Validators and of JavaScript code on [JSHint](jshint.com)
 	- Used ```CTRL+SHIFT+P``` to reindent tabs to ensure code is structured cleanly.
-	- Checked console for errors for JavaScript codes.
+	- Checked console for errors in JavaScript.
 
 - Implementation
 	- For mobile responsiveness and font and image-sizing I referred to best practice discussed on StackOverflow and ensured font-size was 16px = 1em. Initially I had thought of keeping this font for all devices however have decided to alter font sizes for each device upon reflection and through conversation with the client. I have also included a line-height of 1.25em for easy legibility of paragraphs on mobile devices.
