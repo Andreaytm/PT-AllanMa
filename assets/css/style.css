@@ -151,6 +151,10 @@ a{
 	max-height: 400px;
 	overflow: hidden;
 }
+video{
+	display: block;
+	margin: 100px auto;
+}
 /*faq*/
 .link{
 	text-decoration: underline;
