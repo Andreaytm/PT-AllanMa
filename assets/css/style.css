@@ -154,6 +154,7 @@ a{
 video{
 	display: block;
 	margin: 50px auto;
+	width: 100%;
 }
 /*faq*/
 .link{
