@@ -156,6 +156,10 @@ video{
 	margin: 50px auto;
 	width: 100%;
 }
+.audio{
+	display: flex;
+	justify-content:center;
+}
 /*faq*/
 .link{
 	text-decoration: underline;
