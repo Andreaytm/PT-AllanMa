@@ -1,4 +1,4 @@
-var app = angular.module('mydp', []);
+var app = angular.module('PTSite', []);
 
 app.controller('MainCtrl', function($scope) {
   $scope.date = '31/03/2018';
