@@ -196,15 +196,15 @@ iframe{
 	color:grey;
 }
 
-input[type="number"] {
+.date-time input[type="number"] {
 	width: 100px;
 }
 
-input + span {
+.date-time input + span {
 	padding-right: 30px;
 }
 
-input:invalid+span:after {
+.date-time input:invalid+span:after {
 	position: absolute;
 	content: '✖';
 	color: red;
@@ -212,7 +212,7 @@ input:invalid+span:after {
 	padding-left: 5px;
 }
 
-input:valid+span:after {
+.date-time input:valid+span:after {
 	position: absolute;
 	content: '✓';
 	color: green;
