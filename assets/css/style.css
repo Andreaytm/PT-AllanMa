@@ -194,3 +194,27 @@ iframe{
 	text-decoration: underline;
 	color:grey;
 }
+
+input[type="number"] {
+	width: 100px;
+}
+
+input + span {
+	padding-right: 30px;
+}
+
+input:invalid+span:after {
+	position: absolute;
+	content: '✖';
+	color: red;
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+input:valid+span:after {
+	position: absolute;
+	content: '✓';
+	color: green;
+	font-weight: bold;
+	padding-left: 5px;
+}
