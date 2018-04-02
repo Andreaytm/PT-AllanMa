@@ -7,7 +7,7 @@
 		<br></div></div>
 		<div class="container">
 			<div class="col-12">
-				<img id="contact" src="assets/img/contact.jpg" alt="me"></div>
+				<img id="contact" src="assets/img/contact.jpg" alt="me">
 				<p class="contacts">Email:allanma@example.com</p>
 				<br>
 				<p class="contacts">Mobile:07771234567</p>
@@ -17,7 +17,8 @@
 				<p> You can also contact me on <a href="https://www.facebook.com" class="link" target="_blank">Facebook</a>, <a href="https://www.twitter.com" class="link" target="_blank">Twitter</a>,<a href="https://www.instagram.com" class="link" target="_blank"> Instagram</a> and via the contact form on this page</p>
 				<br>
 				<button type="button" id="contactbtn" class="btn btn-primary btn-large" data-toggle="modal" data-target="#contact-modal">Contact Me Form</button>
-			</div></div>
+			</div>
+		</div>
 			<br>
 			<div class="container">
 				<div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="contact-form-modal" aria-hidden="true">
@@ -61,7 +62,7 @@
 										<p>Please enter a possible date you wish to meet for the consultation.</p>
 										<p>Please bear in mind that it may take a week for me to get back in touch with you so please pick a date a week ahead if possible. Unfortunately I cannot travel back in time to meet with you.</p>
 										
-										<input type="date" name="date" placeholder="dd-mm-yy" ng-model="contact.date"><span class="validity"></span>
+										<input type="date" name="date" title="Please enter/select a date in format: dd/mm/yy" placeholder="dd-mm-yy" ng-model="contact.date"><span class="validity"></span>
 										<br>
 										<label>Time:</label>
 										<p>Please enter a possible time you wish to meet (09.00am-6.00pm)</p>
@@ -69,7 +70,7 @@
 										<input type="time" name="time" value="10:00" ng-model="contact.time" id="time" min="09:00" max="18:00" step="300" placeholder="hh:mm" pattern="[0-9]{2}:[0-9]{2}"><span class="validity"></span>
 									</div>
 									<br>
-									<fieldset>
+									<fieldset class="form-group">
 										<label>Sessions</label>
 										<br>
 										<input type="radio" name="selectedSession" value="5*45mins" onclick="calculateTotal()"> 5 x 45 minute training session (£50)
@@ -113,10 +114,8 @@
 				</div>
 			</div>
 			<div class="container">
-				<div class ="col-4">
 					<div id="googleMap">
 						<iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJqXiu3PPGh0gRNfsDY7DeV7o&key=
 						AIzaSyD4j8fRjUSRXiDJsDE5oxHlbKNEzWo1XKw&" allowfullscreen></iframe>
 					</div>
-				</div>
 			</div>
