@@ -2,9 +2,113 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Make Pages Redirect to repo root</title>
-    <script type="text/javascript">
-        window.location = "/";
-    </script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+ 	<link rel="stylesheet" type="text/css" href="assets/lib/bootstrap/css/bootstrap.css">
+
+    <title>404 Error (Page not Found!)</title>
+
+<style type="text/css">
+body{
+	font-family: Roboto;
+	background: linear-gradient(-90deg, rgba(193, 193, 193,1), #fff);
+	padding-left: 20px;
+	padding-top:50px;
+}
+
+h3 {
+	color:linear-gradient(-45deg, #191970, rgba(193, 193, 193,1), #333);
+}
+p{
+	color:black;
+}
+
+#kick{
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-top: 5px;
+	width: 180px;
+	height: 260px;
+	display: flex;
+	align-items: center;
+	float:left;
+}
+
+button{
+	background: linear-gradient(-45deg, #191970, rgba(0,0,0,1), #333);
+	border: none;
+	padding: 6px;
+	border-radius: 4px;
+}
+
+.btnlink{
+	text-decoration: none;
+	color:white;
+	background: linear-gradient(-45deg, #191970, rgba(0,0,0,1), #333);
+
+}
+.btnlink:hover{
+	text-decoration: underline;
+	color:grey;
+}
+@media(min-width:992px) and (max-width:1199px){
+#kick:hover {
+    width:600px;
+    -webkit-transform: perspective( -100px ) rotateY( 80deg ) skewx(80deg);
+    height:800px;
+    }
+
+#kick{
+	padding-right: 50px;
+	padding-top: 5px;
+	width: 260px;
+	height: 320px;
+	display: flex;
+	align-items: center;
+	float:left;
+}
+}
+@media(min-width:1200px){
+#kick:hover {
+    width:600px;
+    -webkit-transform: perspective( -100px ) rotateY( 80deg ) skewx(80deg);
+    height:800px;
+    }
+
+#kick{
+	padding-right: 50px;
+	padding-top: 5px;
+	width: 260px;
+	height: 320px;
+	display: flex;
+	align-items: center;
+	float:left;
+}
+}
+</style>
+
 </head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="/">Allan Ma: Personal Trainer</a>
+				</div>
+		</div>
+	</nav>
+	<div class="container">
+	<h1>404</h1>
+	 <h2>Error: This page does not exist</h2>
+	 <img id="kick" class="translateMe" src="assets/img/kick.jpg" alt="kick">
+	 <div class="content">
+    	<h3>Sorry you have been kicked out of the site!</h3>
+    	<br>
+    	<p>The requested URL was not found</p> 
+    	<br>
+    	<br>
+    </div>
+    <button><a class="btn-primary btnlink" href="/">Please click here to return back home</a></button>
+</div>
+
+</body>
 </html>
