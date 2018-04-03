@@ -198,7 +198,7 @@ iframe{
 	text-decoration: underline;
 	color:grey;
 }
-
+/* may require at later point
 .date-time input[type="number"] {
 	width: 100px;
 }
@@ -221,10 +221,44 @@ iframe{
 	color: green;
 	font-weight: bold;
 	padding-left: 5px;
-}
+}*/
 
 #totalPrice{ 
 display: block;
 float: right;
 font-weight: bold;
  }
+ /*re-styling color aspects for calendar*/
+ .bootstrap-datetimepicker-widget table td span {
+  color: #171769;
+}
+
+.bootstrap-datetimepicker-widget .picker-switch td span {
+color: #171769;
+}
+
+.bootstrap-datetimepicker-widget .picker-switch td {
+color: #171769;
+}
+
+.bootstrap-datetimepicker-widget button[data-action] {
+color: #171769;
+}
+
+.bootstrap-datetimepicker-widget .timepicker-hour,
+.bootstrap-datetimepicker-widget .timepicker-minute,
+.bootstrap-datetimepicker-widget .timepicker-second {
+color: #171769;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu.pull-right:before {
+color: #171769;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu.top:before {
+color: #171769;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu.bottom:after {
+color: #171769;
+}
