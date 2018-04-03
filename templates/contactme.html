@@ -58,16 +58,20 @@
 									</div>
 									<br>
 									<div class="form-group date-time">
-										<label>Date:</label>
-										<p>Please enter a possible date you wish to meet for the consultation.</p>
-										<p>Please bear in mind that it may take a week for me to get back in touch with you so please pick a date a week ahead if possible. Unfortunately I cannot travel back in time to meet with you.</p>
-										
-										<input type="date" name="date" title="Please enter/select a date in format: dd/mm/yy" placeholder="dd-mm-yy" ng-model="contact.date"><span class="validity"></span>
-										<br>
-										<label>Time:</label>
-										<p>Please enter a possible time you wish to meet (09.00am-6.00pm)</p>
-										
-										<input type="time" name="time" value="10:00" ng-model="contact.time" id="time" min="09:00" max="18:00" step="300" placeholder="hh:mm" pattern="[0-9]{2}:[0-9]{2}"><span class="validity"></span>
+										<label>Date/Time:</label>
+										<p>Please select/enter a possible date you wish to meet for a consultation. I am available Tuesday-Sunday (09.00-18.00)</p>
+									<br>
+										<div class="row">
+											<div class='col-sm-6'>
+												<label>Date/Time:</label>
+												<div class="input-group date" id="datetimepicker5">
+													<input type='text' class="form-control" data-ng-model="contact.datetime">
+													<span class="input-group-addon">
+														<span class="glyphicon glyphicon-calendar"></span>
+													</span>
+												</div>
+											</div>
+										</div>
 									</div>
 									<br>
 									<fieldset class="form-group">
