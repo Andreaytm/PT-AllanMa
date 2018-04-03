@@ -1,5 +1,8 @@
 {
   "name": "",
   "version": "",
-  "description": "pt website"
+  "description": "pt website",
+  "dependencies": {
+    "angularjs-datepicker": "^2.1.23"
+  }
 }
