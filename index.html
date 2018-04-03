@@ -6,22 +6,24 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+
+
 	<!-- Reset CSS -->
 	<link rel="stylesheet" href="reset.css">
+	<!--datepicker css-->
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css">
+
 	<!--CSS-->
-	<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
 
 	<link rel="stylesheet" type="text/css" href="assets/lib/bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/devicesize.css">
-	<!--bower component scripts-->
-	<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
-	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-	<script type="text/javascript" src="bower_components/angular/angular.js"></script>
-	<script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>	
-	<!--other scripts-->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4j8fRjUSRXiDJsDE5oxHlbKNEzWo1XKw&callback=myMap"></script>
+	
 </head>
 
 <body>
@@ -80,14 +82,34 @@
 					
 					<button onclick="GoToTop()" id="toTop" title="Go to top"><span class="glyphicon glyphicon-chevron-up"></span></button>
 
+					<!--bower component scripts - jquery, moment.js bootstrap, angular-->
+					<script type="text/javascript" src="bower_components/jquery/jquery.min.js"></script>
+					<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+
+
+					<!--bower component scripts -  moment.js bootstrap, angular-->
+					<script type="text/javascript" src="bower_components/moment/moment.js"></script>
+					<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+					<script type="text/javascript" src="bower_components/eonasdan-bootstrap-datetimepicker/src/js/bootstrap-datetimepicker.js"></script>
+					<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+					<script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+						
+					<!--map scripts-->
+					<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4j8fRjUSRXiDJsDE5oxHlbKNEzWo1XKw&callback=myMap"></script>
+
+					<!--jquery scripts-->
+					<script src="assets/js/datepicker.js"></script>
+					<script src="assets/js/carousel.js"></script>
+
 					<!--angularJS created scripts-->
 					<script src="controller.js"></script>
 					<script src="app.js"></script>
 
 					<!--js created scripts-->
-					<script src="assets/js/carousel.js"></script>
 					<script src="assets/js/scrollbutton.js"></script>
-
+					<script src="assets/js/submit.js"></script>
+					<script src="assets/js/costs.js"></script>
+					
 
 				</body>
 				</html>

@@ -190,3 +190,43 @@ iframe{
 	text-decoration: underline;
 	color:grey;
 }
+.bootstrap-datetimepicker-widget table td span {
+  color: #171769;
+}
+
+.bootstrap-datetimepicker-widget .picker-switch td span {
+color: #171769;
+}
+
+.bootstrap-datetimepicker-widget .picker-switch td {
+color: #171769;
+}
+
+.bootstrap-datetimepicker-widget button[data-action] {
+color: #171769;
+}
+
+.bootstrap-datetimepicker-widget .timepicker-hour,
+.bootstrap-datetimepicker-widget .timepicker-minute,
+.bootstrap-datetimepicker-widget .timepicker-second {
+color: #171769;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu.pull-right:before {
+color: #171769;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu.top:before {
+color: #171769;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu.bottom:after {
+color: #171769;
+}
+/*404*/
+#kick{
+	float:left;
+	padding-right: 10px;
+	padding-top: 5px;
+	width: 220px;
+	height: 320px;
