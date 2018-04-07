@@ -151,6 +151,15 @@ a{
 	max-height: 400px;
 	overflow: hidden;
 }
+video{
+	display: block;
+	margin: 50px auto;
+	width: 100%;
+}
+audio{
+	width: 200px;
+}
+
 /*faq*/
 .link{
 	text-decoration: underline;
@@ -190,7 +199,21 @@ iframe{
 	text-decoration: underline;
 	color:grey;
 }
-.bootstrap-datetimepicker-widget table td span {
+
+#totalPrice{ 
+display: block;
+float: right;
+font-weight: bold;
+ }
+
+ #datetimerpicker5{
+ 	padding-left: 20px;
+ 	padding-right: 20px;
+ }
+ /*re-styling color aspects for calendar*/
+ .bootstrap-datetimepicker-widget table td span {
+
+
   color: #171769;
 }
 
@@ -224,9 +247,4 @@ color: #171769;
 color: #171769;
 }
 /*404*/
-#kick{
-	float:left;
-	padding-right: 10px;
-	padding-top: 5px;
-	width: 220px;
-	height: 320px;
+

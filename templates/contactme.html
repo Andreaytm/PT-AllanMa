@@ -16,9 +16,9 @@
 				<br>
 				<p> You can also contact me on <a href="https://www.facebook.com" class="link" target="_blank">Facebook</a>, <a href="https://www.twitter.com" class="link" target="_blank">Twitter</a>,<a href="https://www.instagram.com" class="link" target="_blank"> Instagram</a> and via the contact form on this page</p>
 				<br>
-
 				<button type="button" id="contactbtn" class="btn btn-primary btn-large" data-toggle="modal" data-target="#contact-modal">Contact Me Form</button>
-			</div></div>
+			</div>
+		</div>
 			<br>
 			<div class="container">
 				<div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="contact-form-modal" aria-hidden="true">
@@ -27,9 +27,11 @@
 							<div class="modal-header">
 								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 								<h4 class="modal-title" id="contact-form-header">Contact Form</h4> 
+								<br>
+								<p>Please complete all required sections (indicated with *) before submitting the form. <br>Thank you </p>
 							</div>
 							<div class="modal-body">
-								<form action="/" name="contactForm" onsubmit="submitFunction()" id="contactForm" data-ng-submit="submitForm()" novalidate>
+								<form action="." id="contactForm" onsubmit="submitFunction()" name="contactForm" data-ng-submit="submitForm()" novalidate>
 									<div class="form-group">
 										<label><i class="fa fa-user"></i>  *Name:</label>
 										<input type="text" name="name" class="form-control" data-ng-model="contact.name" title="Please enter full name" placeholder="John Doe" required>
@@ -47,26 +49,27 @@
 										<label><i class="fa fa-phone"></i> *Mobile/Telephone:</label>
 										<input type="text" name="number" class="form-control" data-ng-model="contact.mobile" title="Please enter a 11 digit contact number eg 07712345555" placeholder="eg 07123456789" pattern="[0]{1}[0-9]{10}" required>
 										<p data-ng-show="contactForm.number.$pristine" class="help-block">A contact number is required
+
 										</p>
 									</div>
+
 									<div class="form-group">
 										<label>Age:</label>
-										<input type="number" name="age" placeholder="Age" step="1" min="18" max="99" ng-model="contact.age">
+										<p> I only train adults from 18 upwards. If you are wanting personal training and younger than 18 I will require your parent/guardian's consent.</p>
+										<input type="number" name="age" placeholder="Age"  title="Please enter your age eg 18-99"  step="1" min="18" max="99" ng-model="contact.age">
 									</div>
 									<br>
+									<label>Date/Time:</label>
+									<p>Please select/enter a possible date you wish to meet for a consultation. I am available Tuesday-Sunday (09.00-18.00)</p>
 									<div class="form-group">
-										<div class="row">
-											<div class='col-sm-6'>
-												<label>Date/Time:</label>
-												<p> Please enter a possible date and time you wish to meet for the consultation. I work Tuesday-Sunday (09.00-18.00)</p>
 												<div class="input-group date" id="datetimepicker5">
-													<input type='text' class="form-control" data-ng-model="contact.datetime">
+													<input type="text" class="form-control" data-ng-model="contact.datetime">
+
 													<span class="input-group-addon">
 														<span class="glyphicon glyphicon-calendar"></span>
 													</span>
 												</div>
-											</div>
-										</div>
+
 									</div>
 									<br>
 									<fieldset class="form-group">
@@ -85,10 +88,10 @@
 										<input type="radio" name="selectedSession" value="10*1hour" onclick="calculateTotal()"> 10 x 1 hour training session (£150)
 										<br>
 									</fieldset>
-
-									<div class="form-group">
+									<div class="form-group date-time">
 										<label>Additional Information:</label>
 										<br>
+
 										<textarea name="info" type="text" class="form-control" data-ng-model="contact.info" rows="10" cols="20" placeholder="Please enter any additional information which would be useful eg any injuries, medical conditions, pregnancy, areas of concern so that I can provide you with a fully tailored workout programme for you.">
 										</textarea>
 									</div>
@@ -98,7 +101,7 @@
 										<label>Subscription:</label>
 										<p> Check the box for subscriptions to the latest workout advice and offers</p>
 
-										<input type="checkbox" name="subscribe" value="subscribe here">
+										<input type="checkbox" name="subscribe" id="includesubscribed" value="subscribe here">
 										<br>
 									</div>
 									<div id="totalPrice"></div>
@@ -115,10 +118,10 @@
 				</div>
 			</div>
 			<div class="container">
-				<div class ="col-4">
+
 					<div id="googleMap">
 						<iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJqXiu3PPGh0gRNfsDY7DeV7o&key=
 						AIzaSyD4j8fRjUSRXiDJsDE5oxHlbKNEzWo1XKw&" allowfullscreen></iframe>
 					</div>
-				</div>
+
 			</div>

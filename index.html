@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html data-ng-app="PTSite"> 
 <head lang="en">
-	<base href="/">
+	<base href="/PT-AllanMa/">
 	<title> Allan Ma: Personal Trainer</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,11 +19,10 @@
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 
-
-	<link rel="stylesheet" type="text/css" href="assets/lib/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/lib/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/devicesize.css">
-	
+
 </head>
 
 <body>
@@ -31,7 +30,7 @@
 	<nav class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="/">Allan Ma: Personal Trainer</a>
+				<a class="navbar-brand" href=".">Allan Ma: Personal Trainer</a>
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myCollapsingList">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
@@ -40,11 +39,11 @@
 				</button>
 			</div>
 			<ul id="myCollapsingList" class="nav navbar-nav collapse navbar-collapse">
-				<li><a href="/">Home</a></li>
-				<li><a href="/aboutme">About Me</a></li>
-				<li><a href="/yourworkout">Your Workout</a></li>
-				<li><a href="/faq">FAQ</a></li>
-				<li><a href="/contactme">Contact Me</a></li>
+				<li><a href=".">Home</a></li>
+				<li><a href="aboutme">About Me</a></li>
+				<li><a href="yourworkout">Your Workout</a></li>
+				<li><a href="faq">FAQ</a></li>
+				<li><a href="contactme">Contact Me</a></li>
 			</ul>
 		</div>
 	</nav>
@@ -82,18 +81,16 @@
 					
 					<button onclick="GoToTop()" id="toTop" title="Go to top"><span class="glyphicon glyphicon-chevron-up"></span></button>
 
+
 					<!--bower component scripts - jquery, moment.js bootstrap, angular-->
-					<script type="text/javascript" src="bower_components/jquery/jquery.min.js"></script>
-					<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+					<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+					<script type="text/javascript" src="bower_components/moment/min/moment.min.js"></script>
+					<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+					<script type="text/javascript" src="bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+					<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+					<script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
 
 
-					<!--bower component scripts -  moment.js bootstrap, angular-->
-					<script type="text/javascript" src="bower_components/moment/moment.js"></script>
-					<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-					<script type="text/javascript" src="bower_components/eonasdan-bootstrap-datetimepicker/src/js/bootstrap-datetimepicker.js"></script>
-					<script type="text/javascript" src="bower_components/angular/angular.js"></script>
-					<script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
-						
 					<!--map scripts-->
 					<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4j8fRjUSRXiDJsDE5oxHlbKNEzWo1XKw&callback=myMap"></script>
 
@@ -109,7 +106,6 @@
 					<script src="assets/js/scrollbutton.js"></script>
 					<script src="assets/js/submit.js"></script>
 					<script src="assets/js/costs.js"></script>
-					
 
 				</body>
 				</html>

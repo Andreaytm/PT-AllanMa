@@ -1,3 +1,5 @@
+/*formatted script from http://javascript-coder.com*/
+
 function getSessionPrice() {
 
 	var session_prices = new Array();
@@ -23,8 +25,23 @@ function getSessionPrice() {
 	}
 	return SessionPrice;
 }
+function subscribedValue()
+{
+    var subscribedValue=0;
+
+    var theForm = document.forms["contactForm"];
+    //Get a reference to the checkbox id="includecandles"
+    var includesubscribed = theForm.elements["includesubscribed"];
+ 
+    if(includesubscribed.checked==true)
+    {
+        subscribedValue= "Thank you for subscribing to our newsletter";
+    }
+    return subscribedValue;
+}
+
 
 function calculateTotal() {
 	var SessionPriceTotal= getSessionPrice();
-	document.getElementById("totalPrice").innerHTML= "Total Price for Session £"+SessionPriceTotal;
+	document.getElementById("totalPrice").innerHTML= "Total Price for Session £"+SessionPriceTotal + subscribedValue;
 }
