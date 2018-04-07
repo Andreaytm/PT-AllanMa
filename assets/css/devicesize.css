@@ -199,3 +199,10 @@ audio{
 
 /*xs =landscape phone and portrait tablet 
 (max-width:767px default sizing of bootstrap)*/
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none){
+/*for IE10+ screeens*/
+audio{
+	float: right;
+	width: 200px;
+}
+}
