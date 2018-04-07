@@ -18,6 +18,8 @@ This is a responsive website for a client promoting his personal training busine
 	- Contact Me Form
 	- Gallery (Rotational Carousel)
 	- Interactive Map
+	- Video
+	- Audio Tracks
 
 ## Development
 - Planning 
@@ -31,27 +33,48 @@ This is a responsive website for a client promoting his personal training busine
 		- inclusion of return to top button at bottom of pages
 		- decision to use a pop-up thankyou message instead of routing to a thankyou page
 -Testing
-	- Iterative testing has been included throughout the process of the project through observation of complex changes on [localhost](http://127.0.0.1:8080) this was shared iteratively with the client especially once new functionality was built throughout the project.
+	- Iterative testing has been included throughout the process of the project through observation of complex changes on [localhost](http://127.0.0.1:8080) this was shared iteratively with the client especially once new functionality was built in the project.
 	- Checking syntax for errors against existing [Code Institute](https://www.codeinstitute.net/) learnt code
 	- Validation of syntax through [CSS](http://jigsaw.w3.org/css-validator/) and [HTML](https://validator.w3.org/) Validators and of JavaScript code on [JSHint](jshint.com)
 	- Used ```CTRL+SHIFT+P``` to reindent tabs to ensure code is structured cleanly.
 	- Checked console for errors in JavaScript.
+	- Installed various browsers for testing for cross-compatibility in various platforms and devices.
 
 - Implementation
 	- For mobile responsiveness and font and image-sizing I referred to best practice discussed on StackOverflow and ensured font-size was 16px = 1em. Initially I had thought of keeping this font for all devices however have decided to alter font sizes for each device upon reflection and through conversation with the client. I have also included a line-height of 1.25em for easy legibility of paragraphs on mobile devices.
 	- Minor stylistic aspects have been included in the design such as [font-awesome](https://fontawesome.bootstrapcheatsheets.com/) glyphicons instead of standard Bootstrap glyphicons, and social media icons have been provided by [Axialis](https://www.axialis.com/free/icons). 
 	- Images were taken from free stockphoto website [Pexels](https://www.pexels.com) and from personal photos taken by the client.
+	- Video clips were taken from free stockvideo website [Pexels](https://videos.pexels.com).
+
 	- Other changes included excluding services and directives in the use of AngularJS and not including a0-angular-storage bower-components. These decisions were made as they were not required for the implementation of the website as it does not require REST API, access to data in local storage, or need for API calls.
+
 
 - Finalisation 
 	- The project is deployed on GitHub and is accessible through [andreaytm.github.io/PT-AllanMa/(https://andreaytm.github.io/PT-AllanMa/). 
 
 ## Technologies Used
-- [AngularJS](https://angularjs.org/) to manage page routing.
+- [AngularJS](https://angularjs.org/) to manage page routing with angular-route.
 - [Bootstrap](https://getbootstrap.com/) provides responsive simplistic layouts.
 - [jQuery](https://jQuery.com/) to manage events and effects for enhanced user experience.
 - [npm](https://www.npmjs.com/) for management of dependencies on the website 
 - [bower](https://bower.io/) for easy installation of libraries and frameworks.
+- [moment.js](https://momentjs.com/) dependency for the datetimerpicker application.
+- [eonasdan- Bootstrap-datetimepicker](http://eonasdan.github.io/bootstrap-datetimepicker/) for calendar use in modal form.
+
+## Additional Technologies Used
+- Video creation [Windows Live Movie Maker](https://www.topwin-movie-maker.com/)
+- Video conversion websites for various formats of videos 
+	- OGG video conversion and AAC audio conversion [https://www.online-convert.com](https://www.online-convert.com)
+	- MPEG video conversion [http://www.convertfiles.com](http://www.convertfiles.com)
+	- VLC Media Player(https://www.videolan.org)
+	- MPEG-4 video conversion [MacX HD Video Converter Pro For Windows](https://www.macxdvd.com/macx-hd-video-converter-pro-for-windows/)
+
+
+### Acknowledgements/ Copyright
+- (c) 2015 Jonathan Peterson (@Eonasdan) for the [Bootstrap DateTimePicker](http://eonasdan.github.io/bootstrap-datetimepicker/) 
+- Video and Audio resources from [Pexels](https://www.pexels.com) and [Pexels Videos](https://videos.pexels.com)
+- Audio files on [freemusicarchive.org](http://freemusicarchive.org/genre/Soundtrack/)
+- Glyphicons from [Axialis](https://www.axialis.com/free/icons), [font-awesome](https://fontawesome.bootstrapcheatsheets.com/) and Bootstrap default glyphicons
 
 ### Getting the code up and running 
 1. Firstly you will need to clone this repository by running the ```git clone <https://github.com/Andreaytm/S1-project>``` command
