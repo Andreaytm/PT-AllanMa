@@ -212,6 +212,8 @@ font-weight: bold;
  }
  /*re-styling color aspects for calendar*/
  .bootstrap-datetimepicker-widget table td span {
+
+
   color: #171769;
 }
 
@@ -245,3 +247,4 @@ color: #171769;
 color: #171769;
 }
 /*404*/
+

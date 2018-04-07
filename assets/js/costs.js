@@ -1,4 +1,5 @@
 /*formatted script from http://javascript-coder.com*/
+
 function getSessionPrice() {
 
 	var session_prices = new Array();
@@ -42,3 +43,4 @@ function calculateTotal() {
 	var SessionPriceTotal= getSessionPrice();
 	document.getElementById("totalPrice").innerHTML= "Total Price for Session £"+SessionPriceTotal + subscribedValue;
 }
+
