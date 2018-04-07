@@ -42,6 +42,7 @@ function subscribedValue() {
 
 function calculateTotal() {
 	var SessionPriceTotal= getSessionPrice();
-	document.getElementById("totalPrice").innerHTML= "Total Price for Session £"+SessionPriceTotal + subscribedValue;
+	var subscribedValueTotal= subscribedValue();
+	document.getElementById("totalPrice").innerHTML= "Total Price for Session £"+SessionPriceTotal + subscribedValueTotal;
 }
 
