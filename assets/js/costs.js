@@ -25,15 +25,16 @@ function getSessionPrice() {
 	}
 	return SessionPrice;
 }
-function subscribedValue()
-{
+
+function subscribedValue() {
+
     var subscribedValue=0;
 
     var theForm = document.forms["contactForm"];
+
     var includesubscribed = theForm.elements["includesubscribed"];
  
-    if(includesubscribed.checked==true)
-    {
+    if(includesubscribed.checked==true) {
         subscribedValue= "Thank you for subscribing to our newsletter";
     }
     return subscribedValue;
