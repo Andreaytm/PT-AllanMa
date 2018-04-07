@@ -54,12 +54,13 @@
 
 									<div class="form-group">
 										<label>Age:</label>
-										<input type="number" name="age" placeholder="Age" step="1" min="18" max="99" ng-model="contact.age">
+										<p> I only train adults from 18 upwards. If you are wanting personal training and younger than 18 I will require your parent/guardian's consent.</p>
+										<input type="number" name="age" placeholder="Age"  title="Please enter your age eg 18-99"  step="1" min="18" max="99" ng-model="contact.age">
 									</div>
 									<br>
+									<label>Date/Time:</label>
 									<p>Please select/enter a possible date you wish to meet for a consultation. I am available Tuesday-Sunday (09.00-18.00)</p>
 									<div class="form-group">
-												<label>Date/Time:</label>
 												<div class="input-group date" id="datetimepicker5">
 													<input type="text" class="form-control" data-ng-model="contact.datetime">
 													<span class="input-group-addon">
@@ -96,7 +97,7 @@
 										<label>Subscription:</label>
 										<p> Check the box for subscriptions to the latest workout advice and offers</p>
 
-										<input type="checkbox" name="subscribe" value="subscribe here">
+										<input type="checkbox" name="subscribe" id="includesubscribed" value="subscribe here">
 										<br>
 									</div>
 									<div id="totalPrice"></div>
