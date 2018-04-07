@@ -156,9 +156,7 @@ video{
 	margin: 50px auto;
 	width: 100%;
 }
-.audio{
-	float: right;
-}
+
 /*faq*/
 .link{
 	text-decoration: underline;
@@ -198,30 +196,6 @@ iframe{
 	text-decoration: underline;
 	color:grey;
 }
-/* may require at later point
-.date-time input[type="number"] {
-	width: 100px;
-}
-
-.date-time input + span {
-	padding-right: 30px;
-}
-
-.date-time input:invalid+span:after {
-	position: absolute;
-	content: '✖';
-	color: red;
-	font-weight: bold;
-	padding-left: 5px;
-}
-
-.date-time input:valid+span:after {
-	position: absolute;
-	content: '✓';
-	color: green;
-	font-weight: bold;
-	padding-left: 5px;
-}*/
 
 #totalPrice{ 
 display: block;
@@ -262,3 +236,4 @@ color: #171769;
 .bootstrap-datetimepicker-widget.dropdown-menu.bottom:after {
 color: #171769;
 }
+/*404*/
