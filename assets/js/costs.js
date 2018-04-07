@@ -7,7 +7,7 @@ function getSessionPrice() {
 	session_prices["10*45mins"]=100;
 	session_prices["5*1hour"]=75;
 	session_prices["8*1hour"]=120;
-	session_prices["10*1hour"]=180;
+	session_prices["10*1hour"]=150;
 
 	var SessionPrice=0;
 	
