@@ -29,7 +29,6 @@ function subscribedValue()
     var subscribedValue=0;
 
     var theForm = document.forms["contactForm"];
-    //Get a reference to the checkbox id="includecandles"
     var includesubscribed = theForm.elements["includesubscribed"];
  
     if(includesubscribed.checked==true)
@@ -42,5 +41,5 @@ function subscribedValue()
 
 function calculateTotal() {
 	var SessionPriceTotal= getSessionPrice();
-	document.getElementById("totalPrice").innerHTML= "Total Price for Session £"+SessionPriceTotal + subscribedValue();
+	document.getElementById("totalPrice").innerHTML= "Total Price for Session £"+SessionPriceTotal + subscribedValue;
 }
