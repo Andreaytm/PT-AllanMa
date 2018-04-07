@@ -17,4 +17,4 @@ angular.module("RouteControllers", [])
 
 .controller("ContactController", function($scope) {
 	$scope.title = "Contact Me";
-});
+})

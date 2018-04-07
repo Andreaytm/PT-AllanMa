@@ -4,7 +4,7 @@
 <div class="container">
 	<div class ="col-12">
 		<p> If you're interested in getting fit and healthy with me. Please get in touch using any of the following details below or if you prefer the face-to-face approach you can find me at PureGym on most days.</p>
-		<br></div></div>
+		<br></div>
 		<div class="container">
 			<div class="col-12">
 				<img id="contact" src="assets/img/contact.jpg" alt="me">
@@ -49,6 +49,7 @@
 										<label><i class="fa fa-phone"></i> *Mobile/Telephone:</label>
 										<input type="text" name="number" class="form-control" data-ng-model="contact.mobile" title="Please enter a 11 digit contact number eg 07712345555" placeholder="eg 07123456789" pattern="[0]{1}[0-9]{10}" required>
 										<p data-ng-show="contactForm.number.$pristine" class="help-block">A contact number is required
+
 										</p>
 									</div>
 
@@ -63,10 +64,12 @@
 									<div class="form-group">
 												<div class="input-group date" id="datetimepicker5">
 													<input type="text" class="form-control" data-ng-model="contact.datetime">
+
 													<span class="input-group-addon">
 														<span class="glyphicon glyphicon-calendar"></span>
 													</span>
 												</div>
+
 									</div>
 									<br>
 									<fieldset class="form-group">
@@ -88,6 +91,7 @@
 									<div class="form-group date-time">
 										<label>Additional Information:</label>
 										<br>
+
 										<textarea name="info" type="text" class="form-control" data-ng-model="contact.info" rows="10" cols="20" placeholder="Please enter any additional information which would be useful eg any injuries, medical conditions, pregnancy, areas of concern so that I can provide you with a fully tailored workout programme for you.">
 										</textarea>
 									</div>
@@ -102,6 +106,7 @@
 									</div>
 									<div id="totalPrice"></div>
 									<br>
+
 									<div class="modal-footer">
 										<button type="cancel" class="btn btn-default" data-dismiss="modal">Cancel</button>
 										<button type="submit" id="submitform" class="btn btn-primary" data-ng-disabled="contactForm.$invalid">Submit</button>
@@ -113,8 +118,10 @@
 				</div>
 			</div>
 			<div class="container">
+
 					<div id="googleMap">
 						<iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJqXiu3PPGh0gRNfsDY7DeV7o&key=
 						AIzaSyD4j8fRjUSRXiDJsDE5oxHlbKNEzWo1XKw&" allowfullscreen></iframe>
 					</div>
+
 			</div>

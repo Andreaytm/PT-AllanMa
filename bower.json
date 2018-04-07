@@ -17,7 +17,9 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "angular": "^1.6.9",
-    "angular-route": "^1.6.9"
+    "angular-route": "^1.6.9",
+    "angularjs-datepicker": "^2.1.23",
+    "eonasdan-bootstrap-datetimepicker": "^4.17.47"
   },
   "resolutions": {
     "bootstrap": "^3.3.7"

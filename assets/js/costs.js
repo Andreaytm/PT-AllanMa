@@ -1,4 +1,5 @@
 /*formatted script from http://javascript-coder.com*/
+
 function getSessionPrice() {
 
 	var session_prices = new Array();
