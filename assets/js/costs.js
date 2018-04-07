@@ -26,29 +26,10 @@ function getSessionPrice() {
 	return SessionPrice;
 }
 
-function getsubscribedValue() {
-
-    var subscribedValue= new Array();
-
-    var theForm = document.forms["contactForm"];
-
-    var includesubscribed = theForm.elements["includesubscribed"];
- 
-    if(includesubscribed.checked==true) {
-        subscribedValue= "Thank you for subscribing to our newsletter";
-    }
-    else
-    {
-       (includesubscribed.checked==false) {
-        subscribedValue= "";
-    }
-
-    return subscribedValue;
-}
 
 function calculateTotal() {
 	var SessionPriceTotal= getSessionPrice();
 	var subscribedValueTotal= getsubscribedValue();
-	document.getElementById("totalPrice").innerHTML= "Total Price for Session £"+SessionPriceTotal + subscribedValueTotal;
+	document.getElementById("totalPrice").innerHTML= "Total Price for Session £"+SessionPriceTotal;
 }
 
