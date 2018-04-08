@@ -1,4 +1,11 @@
 function subscriptionFunction() {
-    var subscribed= document.getElementById("subscribe").value;
-    document.getElementById("subscription").innerHTML = subscribed;
+    var checkBox= document.getElementById("subscribe");
+    var text =document.getElementById("subscriptiontext");
+
+    if (checkBox.checked==true){
+    text.style.display= "block";
+
+}else{
+	text.style.display= "none";
+}
 }

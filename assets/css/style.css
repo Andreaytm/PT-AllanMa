@@ -205,7 +205,11 @@ display: block;
 float: right;
 font-weight: bold;
  }
-
+#subscriptiontext{
+	display: none;
+	font-weight: bold;
+	float: right;
+}
  #datetimerpicker5{
  	padding-left: 20px;
  	padding-right: 20px;
