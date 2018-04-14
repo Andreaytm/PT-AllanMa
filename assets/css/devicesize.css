@@ -2,7 +2,7 @@
 @media(min-width:1200px){
 h1 {font-size:3em;
 	padding-top: 80px;
-	padding-left: 30px;
+	padding-left: 100px;
 	padding-bottom: 8px
 }
 
@@ -68,7 +68,7 @@ audio{
 @media(min-width:992px) and (max-width:1199px){
 h1{font-size: 3em;
 	padding-top: 80px;
-	padding-left: 30px;
+	padding-left: 50px;
 	padding-bottom: 8px
 }
 	
@@ -205,5 +205,8 @@ audio{
 audio{
 	float: right;
 	width: 200px;
+}
+.player{
+	height: 40px;
 }
 }
