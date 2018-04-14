@@ -112,16 +112,7 @@ a{
 #train:hover{
 	-webkit-filter: brightness(.5);
 }
-#carousel-example-generic{
-	max-height: 500px;
-	overflow: hidden;
-	width: 100%;
-}
-.item{
-	height: 500px;
-    width: 500px;
-    object-fit: contain;
-}
+
 /*about me*/
 #aboutmephoto{
 	float:right;
