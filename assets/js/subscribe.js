@@ -1,3 +1,4 @@
+/* from www.w3schools.com */
 function subscriptionFunction() {
     var checkBox= document.getElementById("subscribe");
     var text =document.getElementById("subscriptiontext");

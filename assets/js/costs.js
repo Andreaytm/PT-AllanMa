@@ -15,6 +15,7 @@ function getSessionPrice() {
 	var theForm = document.forms["contactForm"];
 
 	var selectedSession= theForm.elements["selectedSession"];
+	
 	/*selectedSession.length=6*/
 	for (var i = 0; i< selectedSession.length; i++) {
 
