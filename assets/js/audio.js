@@ -4,7 +4,7 @@ https://stackoverflow.com/users/4376/nathan-long*/
 
 function oneAudio(container) {
   container.addEventListener("play", function(event) {
-  audio_player = container.getElement("audio")
+  audio_player = container.getElementsByTagName("audio")
     for(i=0; i < audio_player.length; i++) {
       audio_player = audio_player[i];
       if (audio_player !== event.target) {
