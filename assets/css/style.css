@@ -157,7 +157,10 @@ video{
 	width: 100%;
 }
 audio{
-	float: right;
+	float: left;
+}
+.list-group-item{
+	height:18px;
 }
 
 /*faq*/
