@@ -148,13 +148,13 @@ a{
 #carousel2{
 	margin: 0 auto;	
 	width: 100%;
-	max-height: 400px;
+	max-height: 300px;
 	overflow: hidden;
 }
 video{
 	display: block;
 	margin: 50px auto;
-	width: 100%;
+	width: 80%;
 }
 audio{
 	float: left;
