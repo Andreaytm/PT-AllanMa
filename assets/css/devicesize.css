@@ -173,8 +173,9 @@ video{
 	width: 600px;
 }
 audio{
-	float: left;
+	float: right;
 }
+
 /*about me*/
 #aboutmephoto{
 	float:right;

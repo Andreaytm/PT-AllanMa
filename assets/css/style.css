@@ -158,10 +158,11 @@ video{
 }
 audio{
 	width: 200px;
-	display: flex;
-	flex-shrink: 1;
+	float: right;
 }
-
+.player{
+	height: 40px;
+}
 /*faq*/
 .link{
 	text-decoration: underline;
