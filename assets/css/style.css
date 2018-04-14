@@ -158,6 +158,8 @@ video{
 }
 audio{
 	width: 200px;
+	display: flex;
+	flex-shrink: 1;
 }
 
 /*faq*/
@@ -250,5 +252,5 @@ color: #171769;
 .bootstrap-datetimepicker-widget.dropdown-menu.bottom:after {
 color: #171769;
 }
-/*404*/
+
 
