@@ -45,6 +45,9 @@ audio{
 	float: right;
 	width: 200px;
 }
+.list-group-item{
+   	height:60px;
+}
 /*about me*/
 #aboutmephoto{
 	float:right;
@@ -112,6 +115,9 @@ audio{
 	float: right;
 	width: 200px;
 }
+.list-group-item{
+   	height:60px;
+}
 /*about me*/
 #aboutmephoto{
 	float:right;
@@ -177,6 +183,9 @@ video{
 audio{
 	float: right;
 	width: 200px;
+}
+.list-group-item{
+   	height:80px;
 }
 
 /*about me*/
