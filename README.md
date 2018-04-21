@@ -50,9 +50,9 @@ This is a responsive website for a client promoting his personal training busine
 	- Other changes included excluding services and directives in the use of AngularJS and not including a0-angular-storage bower-components. These decisions were made as they were not required for the implementation of the website as it does not require REST API, access to data in local storage, or need for API calls.
 
 - Challenges/ Reflections for next project
-	- To be patient with Github especially with rendering the website for the first time
-	- To deploy only when website is near completion 
-	- To test even more regularly especially with IE11 and Apple which has compatibility issues
+	- To be patient with Github especially with rendering the website for the first time.
+	- To deploy only when website is near completion. 
+	- To test even more regularly especially with IE11 and Apple which has compatibility issues.
 
 - Finalisation 
 	- The project is deployed on GitHub and is accessible through [andreaytm.github.io/PT-AllanMa/](https://andreaytm.github.io/PT-AllanMa/).
