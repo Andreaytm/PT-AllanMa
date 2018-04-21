@@ -33,7 +33,7 @@ This is a responsive website for a client promoting his personal training busine
 		- inclusion of return to top button at bottom of pages
 		- decision to use a pop-up thankyou message instead of routing to a thank you page
 
--Testing
+- Testing
 	- Iterative testing has been included throughout the process of the project through observation of complex changes on [localhost](http://127.0.0.1:8080) this was shared iteratively with the client especially once new functionality was built in the project.
 	- Checking syntax for errors against existing [Code Institute](https://www.codeinstitute.net/) learnt code
 	- Validation of syntax through [CSS](http://jigsaw.w3.org/css-validator/) and [HTML](https://validator.w3.org/) Validators and of JavaScript code on [JSHint](jshint.com)
@@ -78,7 +78,7 @@ This is a responsive website for a client promoting his personal training busine
 	- Iphone compatible video conversion[Miro Video Converter](http://www.mirovideoconverter.com/download_win.html) 
 
 
-### Acknowledgements/ Copyright
+## Acknowledgements/ Copyright
 - (c) 2015 Jonathan Peterson (@Eonasdan) for the [Bootstrap DateTimePicker](http://eonasdan.github.io/bootstrap-datetimepicker/)
 - Video and Audio resources from [Pexels](https://www.pexels.com) and [Pexels Videos](https://videos.pexels.com)
 - Audio files on [freemusicarchive.org](http://freemusicarchive.org/genre/Soundtrack/)
@@ -86,18 +86,18 @@ This is a responsive website for a client promoting his personal training busine
 - Various solutions and help found on www.w3schools.com (Refsnes Data), StackOverflow (Stack Exchange)- Nathan Long, javascript-coder.com, Code Institute and Slack.
 
 
-### Special Thanks and Mentions to...
+## Special Thanks and Mentions to...
 - My tutor Mohamed Melouk @mmelouk
 - @eventyret and @miroslavsvec fellow students of Code Institute for advice on Slack
 
 
-### Getting the code up and running 
+## Getting the code up and running 
 1. Firstly you will need to clone this repository by running the ```git clone <https://github.com/Andreaytm/PT-AllanMa>``` command
 2. After you've that you'll need to make sure that you have **npm** and **bower** installed 
 	1. You can get **npm** by installing Node from [here](https://nodejs.org/en/)
 	2. Once you've done this you'll need to run the following command: 
 	`npm install -g bower # this may require sudo on Mac/Linux`
-3. Once **npm** and **bower** are installed, you'll need to install all of the dependencies in *package.json* and *bower.json*
+3. Once **npm** and **bower** are installed, you'll need to install all of the dependencies in *package.json* and *bower.json* and above dependencies as highlighted in the technologies used section above.
 	```
 
 	npm install
