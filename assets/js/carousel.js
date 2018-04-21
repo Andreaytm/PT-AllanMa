@@ -1,8 +1,8 @@
 $(document).ready(function(){
-    // Activate Carousel
+   
     $("#myCarousel").carousel();
     
-    // Enable Carousel Indicators
+
     $(".item1").click(function(){
         $("#myCarousel").carousel(0);
     });
@@ -23,7 +23,7 @@ $(document).ready(function(){
         $("#myCarousel").carousel(5);
     });
 
-    // Enable Carousel Controls
+
     $(".left").click(function(){
         $("#myCarousel").carousel("prev");
     });

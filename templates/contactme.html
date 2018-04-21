@@ -49,14 +49,14 @@
 										<label><i class="fa fa-phone"></i> *Mobile/Telephone:</label>
 										<input type="text" name="number" class="form-control" data-ng-model="contact.mobile" title="Please enter a 11 digit contact number eg 07712345555" placeholder="eg 07123456789" pattern="[0]{1}[0-9]{10}" required>
 										<p data-ng-show="contactForm.number.$pristine" class="help-block">A contact number is required
-
 										</p>
 									</div>
 
 									<div class="form-group">
 										<label>Age:</label>
 										<p> I only train adults from 18 upwards. If you are wanting personal training and younger than 18 I will require your parent/guardian's consent.</p>
-										<input type="number" name="age" placeholder="Age"  title="Please enter your age eg 18-99"  step="1" min="18" max="99" ng-model="contact.age">
+										<input type="number" name="age" placeholder="Age"  title="Please enter your age eg 18-99"  step="1" min="18" max="99" ng-model="contact.age"><p data-ng-show="contactForm.age.$pristine" class="help-block">Please enter an age from 18-99
+										</p>
 									</div>
 									<br>
 									<label>Date/Time:</label>
@@ -101,10 +101,12 @@
 										<label>Subscription:</label>
 										<p> Check the box for subscriptions to the latest workout advice and offers</p>
 
-										<input type="checkbox" name="subscribe" id="includesubscribed" value="subscribe here">
+										<input type="checkbox" id="subscribe" onclick="subscriptionFunction()">
 										<br>
 									</div>
 									<div id="totalPrice"></div>
+									<br>
+									<div id="subscriptiontext">Thank you for subscribing to our newsletter</div>
 									<br>
 
 									<div class="modal-footer">

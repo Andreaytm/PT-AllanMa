@@ -1,4 +1,7 @@
-window.onscroll = function() {scroll();};
+/* adapted from www.w3schools.com */
+window.onscroll = function() {
+	scroll();
+};
 
 function scroll() {
 	if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {

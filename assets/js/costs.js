@@ -15,6 +15,7 @@ function getSessionPrice() {
 	var theForm = document.forms["contactForm"];
 
 	var selectedSession= theForm.elements["selectedSession"];
+	
 	/*selectedSession.length=6*/
 	for (var i = 0; i< selectedSession.length; i++) {
 
@@ -25,23 +26,10 @@ function getSessionPrice() {
 	}
 	return SessionPrice;
 }
-function subscribedValue()
-{
-    var subscribedValue=0;
-
-    var theForm = document.forms["contactForm"];
-    //Get a reference to the checkbox id="includecandles"
-    var includesubscribed = theForm.elements["includesubscribed"];
- 
-    if(includesubscribed.checked==true)
-    {
-        subscribedValue= "Thank you for subscribing to our newsletter";
-    }
-    return subscribedValue;
-}
 
 
 function calculateTotal() {
 	var SessionPriceTotal= getSessionPrice();
-	document.getElementById("totalPrice").innerHTML= "Total Price for Session £"+SessionPriceTotal + subscribedValue;
+	document.getElementById("totalPrice").innerHTML= "Total Price for Session £"+SessionPriceTotal;
 }
+
