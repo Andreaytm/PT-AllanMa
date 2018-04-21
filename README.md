@@ -49,8 +49,14 @@ This is a responsive website for a client promoting his personal training busine
 
 	- Other changes included excluding services and directives in the use of AngularJS and not including a0-angular-storage bower-components. These decisions were made as they were not required for the implementation of the website as it does not require REST API, access to data in local storage, or need for API calls.
 
+- Challenges/ Reflections for next project
+	- To be patient with Github especially with rendering the website for the first time
+	- To deploy only when website is near completion 
+	- To test even more regularly especially with IE11 and Apple which has compatibility issues
+
 - Finalisation 
-	- The project is deployed on GitHub and is accessible through [andreaytm.github.io/PT-AllanMa/](https://andreaytm.github.io/PT-AllanMa/). 
+	- The project is deployed on GitHub and is accessible through [andreaytm.github.io/PT-AllanMa/](https://andreaytm.github.io/PT-AllanMa/).
+	- A 404 page has been used to redirect the user back to the homepage on 404 and refresh errors due to routing of AngularJS. 
 
 
 ## Technologies Used
@@ -86,7 +92,7 @@ This is a responsive website for a client promoting his personal training busine
 
 
 ### Getting the code up and running 
-1. Firstly you will need to clone this repository by running the ```git clone <https://github.com/Andreaytm/S1-project>``` command
+1. Firstly you will need to clone this repository by running the ```git clone <https://github.com/Andreaytm/PT-AllanMa>``` command
 2. After you've that you'll need to make sure that you have **npm** and **bower** installed 
 	1. You can get **npm** by installing Node from [here](https://nodejs.org/en/)
 	2. Once you've done this you'll need to run the following command: 
