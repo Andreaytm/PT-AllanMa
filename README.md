@@ -43,7 +43,7 @@ This is a responsive website for a client promoting his personal training busine
 
 - Implementation
 	- For mobile responsiveness and font and image-sizing I referred to best practice discussed on StackOverflow and ensured font-size was 16px = 1em. Initially I had thought of keeping this font for all devices however have decided to alter font sizes for each device upon reflection and through conversation with the client. I have also included a line-height of 1.25em for easy legibility of paragraphs on mobile devices.
-	- Minor stylistic aspects have been included in the design such as [font-awesome](https://fontawesome.bootstrapcheatsheets.com/) glyphicons instead of standard Bootstrap glyphicons, and social media icons have been provided by [Axialis](https://www.axialis.com/free/icons). 
+	- Minor stylistic aspects have been included in the design such as [Font Awesome](https://fontawesome.bootstrapcheatsheets.com/) glyphicons instead of standard Bootstrap glyphicons, and social media icons have been provided by [Axialis](https://www.axialis.com/free/icons). 
 	- Images were taken from free stockphoto website [Pexels](https://www.pexels.com) and from personal photos taken by the client.
 	- Video clips were taken from free stockvideo website [Pexels](https://videos.pexels.com).
 
@@ -91,7 +91,7 @@ This is a responsive website for a client promoting his personal training busine
 
 ## Acknowledgements/ Copyright
 - (c) 2015 Jonathan Peterson (@Eonasdan) for the [Bootstrap DateTimePicker](http://eonasdan.github.io/bootstrap-datetimepicker/).
-- Video and Audio resources from [Pexels](https://www.pexels.com) and [Pexels Videos](https://videos.pexels.com).
+- Video and images from [Pexels](https://www.pexels.com) and [Pexels Videos](https://videos.pexels.com).
 - Audio files on [freemusicarchive.org](http://freemusicarchive.org/genre/Soundtrack/)
 - Glyphicons from [Axialis](https://www.axialis.com/free/icons), [font-awesome](https://fontawesome.bootstrapcheatsheets.com/) and Bootstrap default glyphicons.
 - Various solutions and help found on www.w3schools.com (Refsnes Data), StackOverflow (Stack Exchange)- Nathan Long, javascript-coder.com, Code Institute and Slack.
@@ -116,7 +116,7 @@ This is a responsive website for a client promoting his personal training busine
 	bower install 
 
 	```
-4. After those dependencies have been installed you'll need to make sure that you have **http-server** installed. You can  install this by running the following: ```npm install -g http-server # this also may require sudo on Mac/Linux```
+4. After those dependencies have been installed you'll need to make sure that you have **http-server** installed. You can install this by running the following: ```npm install -g http-server # this also may require sudo on Mac/Linux```
 5. Once **http-server** is installed run ```http-server -c-1```
 6. The project will now run on [localhost](http://127.0.0.1:8080).
 7. Make changes to the code and if you think it belongs in here then just submit a pull request.
