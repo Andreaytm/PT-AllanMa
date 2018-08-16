@@ -63,6 +63,7 @@ This is a responsive website for a client promoting his personal training busine
 	- Try to enjoy it more and not *spazz* and ***stress*** out too much.
 	- Further reading and research required on Javascript, GitHub usage and compatibilities of browsers and devices.
 	- Knowing when to stop. There's probably more I want to add to this, maybe there will be more, but to know when is it too much and detrimental to UX. *ponders*
+	- Upon reflection I will provide more detailed commit messages. The commits noted in the project lacked information and is something I will be aware of for future projects.
 
 - Finalisation 
 	- The project is deployed on GitHub and is accessible through [andreaytm.github.io/PT-AllanMa/](https://andreaytm.github.io/PT-AllanMa/).
