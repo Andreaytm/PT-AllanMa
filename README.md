@@ -53,7 +53,7 @@ This is a responsive website for a client promoting his personal training busine
 	- IE11: I hated IE before but I did not know how much until it came to coding *the rebel*- issues - styling of videos, issues with 404, overall not playing ball when all other browsers are.
 	- Apple device responsiveness: *very picky*, requiring a particular type of player and video.
 	- Routing: Due to it being front-end have solved with redirection back home. 
-	- GitHub: Pulling and fetching and merging to sync repos. All fun and games! 
+	- GitHub: Pulling and fetching and merging to sync repos. All fun and games! At one point I accidentally managed to delete my whole project f2d4ae6 is an aftermath of my attempts to salvage and recover my work. I'm really sorry for this issue. I also experienced issues with not understanding merge fetch and pull enough hence the 5 pull requests.
 	- Other random stuff: Ordering of files so that they work properly: I had issues with datepicker not displaying initially, and also with formatting rewriting other formatting in CSS, solved eventually also but took some headaches.
 
 - Reflections for next project
@@ -63,7 +63,7 @@ This is a responsive website for a client promoting his personal training busine
 	- Try to enjoy it more and not *spazz* and ***stress*** out too much.
 	- Further reading and research required on Javascript, GitHub usage and compatibilities of browsers and devices.
 	- Knowing when to stop. There's probably more I want to add to this, maybe there will be more, but to know when is it too much and detrimental to UX. *ponders*
-	- Upon reflection I will provide more detailed commit messages. The commits noted in the project lacked information and is something I will be aware of for future projects.
+	- Upon reflection I will provide more detailed commit messages. The commits noted in the project lacked information and is something I will be aware of for future projects. I have added in additional comments now that i have learnt a lot more about committing and hope that you will take this into consideration.
 
 - Finalisation 
 	- The project is deployed on GitHub and is accessible through [andreaytm.github.io/PT-AllanMa/](https://andreaytm.github.io/PT-AllanMa/).
