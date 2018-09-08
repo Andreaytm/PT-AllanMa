@@ -18,7 +18,9 @@
 	}
 
 /*------------------------ workout*/
-	.workout-image {
+	#workout-carousel-img1,
+	#workout-carousel-img2,
+	#workout-carousel-img3 {
 		margin: 0 auto;	
 		width: auto;
 		height: 600px;
@@ -87,7 +89,9 @@
 	}
 
 /*------------------------ workout*/
-	.workout-image {
+	#workout-carousel-img1,
+	#workout-carousel-img2,
+	#workout-carousel-img3 {
 		margin: 0 auto;	
 		width: auto;
 		height: 400px;
@@ -156,7 +160,9 @@
 	}
 
 /*------------------------ workout*/
-	.workout-image {
+	#workout-carousel-img1,
+	#workout-carousel-img2,
+	#workout-carousel-img3 {
 		margin: 0 auto;	
 		width: auto;
 		height: 400px;
