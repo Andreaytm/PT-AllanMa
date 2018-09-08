@@ -1,223 +1,222 @@
-/*lg= large desktop/laptop */
-@media(min-width:1200px){
-h1 {font-size:3em;
-	padding-top: 80px;
-	padding-left: 100px;
-	padding-bottom: 8px
-}
+/*------------------------ lg= large desktop/laptop */
+@media(min-width:1200px) {
+	h1 {
+		font-size: 3em;
+		padding-top: 80px;
+		padding-left: 100px;
+		padding-bottom: 8px;
+	}
 
-h2 {font-size:2.25em;
-	color: navy;
-	font-weight: bold;
-}
+	h2 {
+		font-size: 2.25em;
+		color: navy;
+		font-weight: bold;
+	}
 
-h3 {font-size:1.75em;
-}
+	h3 {
+		font-size: 1.75em;
+	}
 
-/*workout*/
-#transform1{
-	margin: 0 auto;	
-	width: auto;
-	height: 600px;
-}
-#transform2{
-	margin: 0 auto;	
-	width: auto;
-	height: 600px;
-}
-#progress{
-	margin: 0 auto;	
-	width: auto;
-	height: 600px;
-}
-#carousel2{
-	margin: 0 auto;	
-	width: 100%;
-	max-height: 600px;
-	overflow: hidden;
-}
-video{
-	display: block;
-	margin: 50px auto;
-	width: 800px;
-}
-audio{
-	float: right;
-	width: 200px;
-}
-.list-group-item{
-   	height:60px;
-}
-/*about me*/
-#aboutmephoto{
-	float:right;
-	width: 280px;
-	height: 400px;
-}
-#handstand{
-	float: left;
-	padding-right: 20px;
-	padding-top: 10px;
-	width: 300px;
-	height: 400px;
-}
-/*contact me*/
-#contact{
-	width: 320px;
-	height: 300px;
-}
-}
+/*------------------------ workout*/
+	.workout-image {
+		margin: 0 auto;	
+		width: auto;
+		height: 600px;
+	}
 
-/*md =landscape tablets med desktop*/
-@media(min-width:992px) and (max-width:1199px){
-h1{font-size: 3em;
-	padding-top: 80px;
-	padding-left: 50px;
-	padding-bottom: 8px
-}
+	#carousel-workout {
+		margin: 0 auto;	
+		width: 100%;
+		max-height: 600px;
+		overflow: hidden;
+	}
+
+	video {
+		display: block;
+		margin: 50px auto;
+		width: 800px;
+	}
+
+	audio {
+		float: right;
+		width: 200px;
+	}
+
+	.list-group-music {
+   		height: 60px;
+	}
+
+/*------------------------ about me*/
+	#aboutmephoto {
+		float: right;
+		width: 280px;
+		height: 400px;
+	}
 	
-h2{font-size:2em;
-	color: navy;
-	font-weight: bold;
-}
+	#handstand {
+		float: left;
+		padding-right: 20px;
+		padding-top: 10px;
+		width: 300px;
+		height: 400px;
+	}
+/*------------------------ contact me*/
+	#contact{
+		width: 320px;
+		height: 300px;
+	}
+}/*close of @media*/
 
-h3{font-size:1.50em;
-}
+/*------------------------ md =landscape tablets med desktop*/
+@media(min-width:992px) and (max-width:1199px) {
+	h1 {
+		font-size: 3em;
+		padding-top: 80px;
+		padding-left: 50px;
+		padding-bottom: 8px;
+	}
+	
+	h2 {
+		font-size: 2em;
+		color: navy;
+		font-weight: bold;
+	}
 
-/*workout*/
-#transform1{
-	margin: 0 auto;	
-	width: auto;
-	height: 400px;
-}
-#transform2{
-	margin: 0 auto;	
-	width: auto;
-	height: 400px;
-}
-#progress{
-	margin: 0 auto;	
-	width: auto;
-	height: 400px;
-}
-#carousel2{
-	margin: 0 auto;	
-	width: 100%;
-	max-height: 400px;
-	overflow: hidden;
-}
-video{
-	display: block;
-	margin: 50px auto;
-	width: 600px;
-}
-audio{
-	float: right;
-	width: 200px;
-}
-.list-group-item{
-   	height:60px;
-}
-/*about me*/
-#aboutmephoto{
-	float:right;
-	width: 280px;
-	height: 400px;
-}
-#handstand{
-	float:left;
-	padding-right: 20px;
-	padding-top: 10px;
-	width: 300px;
-	height: 400px;
-}
-#contact{
-	width: 320px;
-	height: 300px;
-}
-}
+	h3 {
+		font-size: 1.50em;
+	}
 
-/*sm =tablet & small desktop*/
-@media(min-width:768px) and (max-width:991px){
-h1{font-size: 2.5em; 
-	padding-top: 80px;
-	padding-left: 30px;
-	padding-bottom: 8px
-}
+/*------------------------ workout*/
+	.workout-image {
+		margin: 0 auto;	
+		width: auto;
+		height: 400px;
+	}
 
-h2{font-size:2em;
-	color: navy;
-	font-weight: bold;
-}
+	#carousel-workout {
+		margin: 0 auto;	
+		width: 100%;
+		max-height: 400px;
+		overflow: hidden;
+	}
 
-h3{font-size:1.50em;
-}
+	video {
+		display: block;
+		margin: 50px auto;
+		width: 600px;
+	}
 
-/*workout*/
-#transform1{
-	margin: 0 auto;	
-	width: auto;
-	height: 400px;
-}
-#transform2{
-	margin: 0 auto;	
-	width: auto;
-	height: 400px;
-}
-#progress{
-	margin: 0 auto;	
-	width: auto;
-	height: 400px;
-}
-#carousel2{
-	margin: 0 auto;	
-	width: 100%;
-	max-height: 400px;
-	overflow: hidden;
-}
-video{
-	display: block;
-	margin: 50px auto;
-	width: 600px;
-}
-audio{
-	float: right;
-	width: 200px;
-}
-.list-group-item{
-   	height:80px;
-}
+	audio {
+		float: right;
+		width: 200px;
+	}
 
-/*about me*/
-#aboutmephoto{
-	float:right;
-	width: 200px;
-	height: 280px;
-	padding-left:5px;
-	padding-bottom: 5px;
-}
-#handstand{
-	float:left;
-	padding-right: 10px;
-	padding-top: 5px;
-	width: 220px;
-	height: 320px;
-}
-#contact{
-	width: 240px;
-	height: 220px;
-}
-}
+	.list-group-music{
+   		height:60px;
+	}
 
-/*xs =landscape phone and portrait tablet 
+/*------------------------ about me*/
+	#aboutmephoto {
+		float: right;
+		width: 280px;
+		height: 400px;
+	}
+
+	#handstand {
+		float: left;
+		padding-right: 20px;
+		padding-top: 10px;
+		width: 300px;
+		height: 400px;
+	}
+
+	#contact {
+		width: 320px;
+		height: 300px;
+	}
+}/*close @media*/
+
+/*------------------------ sm =tablet & small desktop*/
+@media(min-width:768px) and (max-width:991px) {
+	h1 {
+		font-size: 2.5em; 
+		padding-top: 80px;
+		padding-left: 30px;
+		padding-bottom: 8px;
+	}
+
+	h2 {	
+		font-size: 2em;
+		color: navy;
+		font-weight: bold;
+	}
+
+	h3 {
+		font-size:1.50em;
+	}
+
+/*------------------------ workout*/
+	.workout-image {
+		margin: 0 auto;	
+		width: auto;
+		height: 400px;
+	}
+
+	#carousel-workout {
+		margin: 0 auto;	
+		width: 100%;
+		max-height: 400px;
+		overflow: hidden;
+	}
+
+	video {
+		display: block;
+		margin: 50px auto;
+		width: 600px;
+	}
+
+	audio {
+		float: right;
+		width: 200px;
+	}
+
+	.list-group-music {
+   		height: 80px;
+	}
+
+/*------------------------ about me*/
+	#aboutmephoto {
+		float: right;
+		width: 200px;
+		height: 280px;
+		padding-left: 5px;
+		padding-bottom: 5px;
+	}
+
+	#handstand {
+		float: left;
+		padding-right: 10px;
+		padding-top: 5px;
+		width: 220px;
+		height: 320px;
+	}
+
+	#contact {
+		width: 240px;
+		height: 220px;
+	}
+}/*close @media*/
+
+/*------------------------ xs =landscape phone and portrait tablet 
 (max-width:767px default sizing of bootstrap)*/
-@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none){
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
 /*for IE10+ screeens*/
-audio{
-	float: right;
-	width: 200px;
-}
-.player{
-	height: 40px;
-}
-}
+	audio {
+		float: right;
+		width: 200px;
+	}
+
+	.player {
+		height: 40px;
+	}
+}/*close @media*/
