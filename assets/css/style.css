@@ -198,6 +198,9 @@ audio {
 /*override bootstrap accordian panel colors*/
 .panel-default > .panel-heading {
 	background: linear-gradient(-45deg,#191970, rgba(0,0,0,1), #333);
+}
+
+.panel-body {
 	overflow: auto;
 }
 
