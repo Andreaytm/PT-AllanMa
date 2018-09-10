@@ -1,6 +1,6 @@
 /* taken and adapted from (c) 2015 Jonathan Peterson (@Eonasdan_- */
  $(document).ready(function() {
- 	$(window).on("shown.bs.modal", function() { 
+ 	$(window).on("show.bs.modal", function() { 
  		$("#datetimepicker5").datetimepicker({
  			format: "ddd DD MMM YYYY HH:mm",
  			defaultDate: moment(),
