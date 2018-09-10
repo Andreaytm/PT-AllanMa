@@ -202,9 +202,12 @@ audio {
 
 .panel-body {
 	overflow: auto;
-	box-sizing: content-box;
-	-moz-box-sizing: content-box;
+	padding: 0;
+	margin: 0;
+}
 
+.panel-body p {
+	padding: 15px;
 }
 
 .panel-title {
