@@ -40,6 +40,24 @@ a {
 	color: white;
 }
 
+.link {
+	text-decoration: underline;
+	color: blue;
+}
+
+.button-link {
+	background: linear-gradient(-45deg,#191970, rgba(0,0,0,1), #333);
+	border: none;
+	font-weight: bold;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.button-link:hover {
+	text-decoration: underline;
+	color: grey;
+}
+
 /*------------------------ index*/
 .navbar {
 	background: linear-gradient(-45deg,#191970, rgba(0,0,0,1), #333);
@@ -75,15 +93,11 @@ a {
 	height: 5%;   /* Height of the footer */
 }
 
-.copyright {
-	display: flex;
-	justify-content: center;
-}
-
 .author {
 	padding-left: 5px;
 }
 
+.copyright,
 .smlinks {
 	display: flex;
 	justify-content: center;
@@ -181,11 +195,7 @@ audio {
 }
 
 /*------------------------ faq*/
-.link {
-	text-decoration: underline;
-	color: blue;
-}
-
+/*override bootstrap accordian panel colors*/
 .panel-default > .panel-heading {
 	background: linear-gradient(-45deg,#191970, rgba(0,0,0,1), #333);
 }
@@ -194,21 +204,8 @@ audio {
 	color: white;
 }
 
-.button-link {
-	background: linear-gradient(-45deg,#191970, rgba(0,0,0,1), #333);
-	border: none;
-	font-weight: bold;
-	padding: 10px;
-	border-radius: 5px;
-}
-
-.btnlink:hover {
-	text-decoration: underline;
-	color: grey;
-}
-
 /*------------------------ contact me*/
-#contact {
+#profileimg {
 	float: left;
 	width: 240px;
 	height: 220px;
@@ -223,11 +220,6 @@ iframe {
 .contacts {
 	color: #0c0c37;
 	font-weight: bold;
-}
-
-#contactbtn:hover {
-	text-decoration: underline;
-	color: grey;
 }
 
 #totalPrice { 
@@ -248,6 +240,7 @@ iframe {
 }
 
 /*------------------------ re-styling color aspects for calendar*/
+/*override datetimepicker calendar colors*/
 .bootstrap-datetimepicker-widget table td span,
 .bootstrap-datetimepicker-widget .picker-switch td span,
 .bootstrap-datetimepicker-widget .picker-switch td {
