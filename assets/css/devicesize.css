@@ -16,14 +16,36 @@
 	h3 {
 		font-size: 1.75em;
 	}
+
+	body {
+		font-size: 15px;
+		line-height: 1.5em;
+	}
+
+/*------------------------ home*/
 	#statement {
 		font-size: 1.5em;
 		line-height: 1.5em;
 	}
 
-	body {
-		font-size: 15px;
-		line-height: 1.5em;
+	.tabs img {
+		width: 180px;
+		height: 120px;
+	}
+
+/*------------------------ about me*/
+	#aboutmephoto {
+		float: right;
+		width: 280px;
+		height: 400px;
+	}
+	
+	#handstand {
+		float: left;
+		padding-right: 20px;
+		padding-top: 10px;
+		width: 300px;
+		height: 400px;
 	}
 
 /*------------------------ workout*/
@@ -57,26 +79,13 @@
    		height: 60px;
 	}
 
-/*------------------------ about me*/
-	#aboutmephoto {
-		float: right;
-		width: 280px;
-		height: 400px;
-	}
-	
-	#handstand {
-		float: left;
-		padding-right: 20px;
-		padding-top: 10px;
-		width: 300px;
-		height: 400px;
-	}
 /*------------------------ contact me*/
 	#contact{
 		width: 320px;
 		height: 300px;
 	}
 }/*close of @media*/
+
 
 /*------------------------ md =landscape tablets med desktop*/
 @media(min-width:992px) and (max-width:1199px) {
@@ -97,16 +106,36 @@
 		font-size: 1.50em;
 	}
 
-	#statement {
-		font-size: 1.5em;
-		line-height: 1.5em;
-	}
-
 	body {
 		font-size: 15em;
 		line-height: 1.5em;
 	}
 
+/*------------------------ home*/
+	#statement {
+		font-size: 1.5em;
+		line-height: 1.5em;
+	}
+
+	.tabs img {
+		width: 180px;
+		height: 120px;
+	}
+
+/*------------------------ about me*/
+	#aboutmephoto {
+		float: right;
+		width: 280px;
+		height: 400px;
+	}
+
+	#handstand {
+		float: left;
+		padding-right: 20px;
+		padding-top: 10px;
+		width: 300px;
+		height: 400px;
+	}
 
 /*------------------------ workout*/
 	#workout-carousel-img1,
@@ -139,21 +168,7 @@
    		height:60px;
 	}
 
-/*------------------------ about me*/
-	#aboutmephoto {
-		float: right;
-		width: 280px;
-		height: 400px;
-	}
-
-	#handstand {
-		float: left;
-		padding-right: 20px;
-		padding-top: 10px;
-		width: 300px;
-		height: 400px;
-	}
-
+/*------------------------ contact me*/
 	#contact {
 		width: 320px;
 		height: 300px;
@@ -179,15 +194,39 @@
 		font-size:1.50em;
 	}
 
+	body {
+		font-size: 12px;
+		line-height: 1.25em;
+	}
+
+/*------------------------ home*/
 	#statement {
 		font-size: 1.5em;
 		line-height: 1.25em;
 	}
 
-	body {
-		font-size: 12px;
-		line-height: 1.25em;
+	.tabs img {
+		width: 150px;
+		height: auto;
 	}
+
+/*------------------------ about me*/
+	#aboutmephoto {
+		float: right;
+		width: 200px;
+		height: 280px;
+		padding-left: 5px;
+		padding-bottom: 5px;
+	}
+
+	#handstand {
+		float: left;
+		padding-right: 10px;
+		padding-top: 5px;
+		width: 220px;
+		height: 320px;
+	}
+
 /*------------------------ workout*/
 	#workout-carousel-img1,
 	#workout-carousel-img2,
@@ -218,24 +257,7 @@
 	.list-group-music {
    		height: 80px;
 	}
-
-/*------------------------ about me*/
-	#aboutmephoto {
-		float: right;
-		width: 200px;
-		height: 280px;
-		padding-left: 5px;
-		padding-bottom: 5px;
-	}
-
-	#handstand {
-		float: left;
-		padding-right: 10px;
-		padding-top: 5px;
-		width: 220px;
-		height: 320px;
-	}
-
+/*------------------------ contact me*/
 	#contact {
 		width: 240px;
 		height: 220px;
@@ -244,8 +266,9 @@
 
 /*------------------------ xs =landscape phone and portrait tablet 
 (max-width:767px default sizing of bootstrap)*/
-@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+
 /*for IE10+ screens*/
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
 	audio {
 		float: right;
 		width: 200px;
