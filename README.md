@@ -1,6 +1,7 @@
 # Stream 1 Project -Personal Training Website
 
-##Index
+## Index
+
 [Overview](#overview)
 
 - [About](#about-personal-training--allan-ma)
@@ -17,7 +18,7 @@
 
 - [Testing](#testing)
 
--[Bugs](#bugs)
+	- [Bugs](#bugs)
 
 - [Implementation](#implementation)
 
