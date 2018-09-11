@@ -16,17 +16,14 @@ h3 {
 	font-size: 1.50em;
 }
 
+body {
+	line-height: 1.25em;
+	font-size: 12px;
+}
+
 .container {
    min-height: 100%;
    position: relative;
-}
-
-body {
-	margin: 0;
-	height: 100%;
-	padding: 5%;
-	font-size: 1em;
-	line-height: 1.25em;
 }
 
 ul {

@@ -17,6 +17,12 @@
 		font-size: 1.75em;
 	}
 
+	body {
+		font-size: 15px;
+		line-height: 1.5em;
+
+	}
+
 /*------------------------ workout*/
 	#workout-carousel-img1,
 	#workout-carousel-img2,
@@ -87,6 +93,12 @@
 	h3 {
 		font-size: 1.50em;
 	}
+
+	body {
+		font-size: 15em;
+		line-height: 1.5em;
+	}
+
 
 /*------------------------ workout*/
 	#workout-carousel-img1,
@@ -159,6 +171,11 @@
 		font-size:1.50em;
 	}
 
+
+	body {
+		line-height: 1.25em;
+		font-size: 12em;
+	}
 /*------------------------ workout*/
 	#workout-carousel-img1,
 	#workout-carousel-img2,
