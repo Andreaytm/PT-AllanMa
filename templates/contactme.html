@@ -95,10 +95,16 @@
                                 <input type="radio" name="selectedSession" value="10*1hour" onclick="calculateTotal()"> 10 x 1 hour training sessions (£150)
                                 <br>
                             </fieldset>
-                            <div class="form-group date-time">
+                            <div class="form-group">
                                 <label>Additional Information:</label>
                                 <br>
-                                <textarea name="info" class="form-control" data-ng-model="contact.info" rows="10" cols="20" placeholder="Please enter any additional information which would be useful eg any injuries, medical conditions, pregnancy, areas of concern so that I can provide you with a fully tailored workout programme for you.">
+                                <textarea name="info" class="form-control" data-ng-model="contact.info" rows="10" placeholder="Please enter any additional information which would be useful eg any injuries, medical conditions, pregnancy, areas of concern so that I can provide you with a fully tailored workout programme for you.">
+                                </textarea>
+                            </div>
+                            <div class="form-group">
+                                <label>Any Questions?:</label>
+                                <br>
+                                <textarea name="questions" class="form-control" data-ng-model="contact.info" rows="5" placeholder="Please enter any questions you have here.">
                                 </textarea>
                             </div>
                             <br>
