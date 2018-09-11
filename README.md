@@ -105,7 +105,7 @@ The wireframes is available [here](https://github.com/Andreaytm/PT-AllanMa/blob/
 - Other random stuff: Ordering of files so that they work properly: I had issues with datepicker not displaying initially, and also with formatting rewriting other formatting in CSS, solved eventually also but took some headaches.
 
 ### Finalisation
-- The project is deployed on GitHub and is accessible through [andreaytm.github.io/PT-AllanMa/](https://andreaytm.github.io/PT-AllanMa/).
+- The project is deployed on GitHub and is accessible through [andreaytm.github.io/PT-AllanMa/](https://andreaytm.github.io/PT-AllanMa/). This was done through the GitHub website on the relevant repository. Within the settings tab within the GitHub Pages section the source was changed to the master branch sot that the GitHub Pages site is built from the master branch.
 - A 404 page has been used to redirect the user back to the homepage, on 404 and refresh errors due to the routing of AngularJS. 
 
 ## Reflections for next project
