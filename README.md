@@ -154,7 +154,8 @@ The wireframes is available [here](https://github.com/Andreaytm/PT-AllanMa/blob/
 - Various solutions and help found on www.w3schools.com (Refsnes Data), StackOverflow (Stack Exchange)- Nathan Long, javascript-coder.com, Code Institute and Slack.
 
 
-## Special Thanks and Mentions to...
+## Special Thanks and Mentions
+Thank you to...
 - My tutor Mohamed Melouk @mmelouk.
 - @eventyret, @miroslavsvec @sebam2k4 fellow students of Code Institute for their advice on Slack.
 
