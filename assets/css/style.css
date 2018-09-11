@@ -21,7 +21,7 @@ h3 {
    position: relative;
 }
 
-.body {
+body {
 	margin: 0;
 	height: 100%;
 	padding: 5%;
@@ -86,7 +86,7 @@ a {
 	-o-transform: rotate(360deg);
 }
 
-#footer {
+footer {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
@@ -110,11 +110,12 @@ a {
 	bottom: 80px;
 	width: 40px;
 	height: 40px;
-	border: none;
-	outline: none;
 	background-color: black;
 	color: white;
+	border: none;
 	border-radius: 20px;
+	outline: none;
+
 }
 
 #toTop:hover {
@@ -158,10 +159,10 @@ a {
 
 #handstand {
 	float: left;
-	padding-right: 10px;
-	padding-top: 5px;
 	width: 220px;
 	height: 320px;
+	padding-right: 10px;
+	padding-top: 5px;
 }
 
 /*------------------------ workout*/
