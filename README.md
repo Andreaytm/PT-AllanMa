@@ -2,24 +2,43 @@
 
 ##Index
 [Overview](#overview)
-	- [About](#about-personal-training--allan-ma)
+
+- [About](#about-personal-training--allan-ma)
+
 [Features](#features)
-	- [General Site Navigation](#general-site-navigation)
-	- [User Based Features](#user-based-features)
+
+- [General Site Navigation](#general-site-navigation)
+
+- [User Based Features](#user-based-features)
+
 [Development](#development)
-	- [Planning](#planning)
-	- [Testing](#testing)
-		-[Bugs](#bugs)
-	- [Implementation](#implementation)
-	- [Challenges](#challenges)
-	- [Finalisation](#finalisation)
+
+- [Planning](#planning)
+
+- [Testing](#testing)
+
+-[Bugs](#bugs)
+
+- [Implementation](#implementation)
+
+- [Challenges](#challenges)
+
+- [Finalisation](#finalisation)
+
 [Reflections for Next Project](#reflections-for-next-project)
+
 [Review](#review)
+
 [Technologies Used](#technologies-used)
+
 [Additional Technologies Used](#additional-technologies-used)
+
 [Acknowledgements and Copyright](#acknowledgements-and-copyright)
+
 [Special Thanks and Mentions](#special-thanks-and-mentions)
+
 [Getting the code up and running](#getting-the-code-up-and-running)
+
 
 ## [Overview]
 
@@ -63,11 +82,11 @@ The wireframes is available [here](https://github.com/Andreaytm/PT-AllanMa/blob/
 - Validation of syntax through [CSS](http://jigsaw.w3.org/css-validator/) and [HTML](https://validator.w3.org/) Validators and of JavaScript code on [JSHint](jshint.com).
 - Used ```CTRL+SHIFT+P``` to reindent tabs to ensure code is structured cleanly.
 - Checked console for errors in JavaScript.
-- Installed various browsers: Opera, IE, Edge, Firefox, Chrome for testing for cross-compatibility in various platforms and devices: Android, Apple ipad and iphone. The documentation for some of the testing is available [here](https://github.com/Andreaytm/PT-AllanMa/blob/master/assets/misc/browser-device-tests.pdf). In relation to routing I used redirection to root instead of attempting a backend fix.
-- Behaviour Driven Development was used this is available and explicitly documented [here](https://github.com/Andreaytm/PT-AllanMa/blob/master/assets/misc/behaviour-driven-development.pdf)
+- Installed various browsers: Opera, Safari, IE, Edge, Firefox, Chrome for testing for cross-compatibility in various platforms and devices: Android, Apple ipad and iphone. The documentation for some of the testing is available [here](https://github.com/Andreaytm/PT-AllanMa/blob/master/assets/misc/browser-device-tests.pdf). In relation to routing I used redirection to root instead of attempting a backend fix.
+- Behaviour Driven Development was used, this is available and explicitly documented [here](https://github.com/Andreaytm/PT-AllanMa/blob/master/assets/misc/behaviour-driven-development.pdf)
 
 #### [Bugs]
-- Chrome DevTools displays an error on Mondays regarding an "Uncaught Error: defaultDate() date passed is invalid according to component setup validations", this is due the fact I have set up the calendar to only potential dates for a consultation session. Due to the client not working on Mondays this would not be an option for potential users to select as a consultation session.
+- Chrome DevTools displays an error on Mondays regarding an *"Uncaught Error: defaultDate() date passed is invalid according to component setup validations"*, this is due the fact I have set up the calendar to only potential dates for a consultation session. Due to the client not working on Mondays this would not be an option for potential users to select as a consultation session.
 - On occasion the accordion is slightly jumpy: this is a bug with angular and bootstrap as highlighted in this forum: https://github.com/angular-ui/bootstrap/issues/3080. The issue seems to be more evident in Chrome and Edge and less so in IE, Firefox, Opera or on mobile. I attempted to fix this with panel body with ```overflow: auto``` and with ```padding and margin set to 0```.
 
 ### [Implementation]
